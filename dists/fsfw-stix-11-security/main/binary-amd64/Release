@@ -1,0 +1,6 @@
+Archive: fsfw-stix-11-security
+Component: main
+Origin: FSFW-Dresden:eMPee584
+Label: fsfw-stix-production
+Architecture: amd64
+Description: usb-live-linux security updates for Debian bullseye

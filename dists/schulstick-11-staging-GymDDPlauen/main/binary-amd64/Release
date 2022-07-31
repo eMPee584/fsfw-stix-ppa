@@ -1,0 +1,7 @@
+Archive: schulstick-11-staging-GymDDPlauen
+Component: main
+Origin: FSFW-Dresden:eMPee584
+Label: schulstick-staging
+Architecture: amd64
+NotAutomatic: yes
+Description: Schulstick packages for Debian bullseye (staging)

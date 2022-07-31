@@ -1,0 +1,332 @@
+Package: cgdb
+Version: 0.8.0-1~schulstick.bpo1
+Architecture: i386
+Maintainer: Sebastian Ramacher <sramacher@debian.org>
+Installed-Size: 530
+Depends: libc6 (>= 2.28), libgcc-s1 (>= 3.0), libncursesw6 (>= 6), libreadline8 (>= 6.0), libstdc++6 (>= 5.2), libtinfo6 (>= 6), gdb
+Homepage: https://cgdb.github.io/
+Priority: optional
+Section: devel
+Filename: pool/main/c/cgdb/cgdb_0.8.0-1~schulstick.bpo1_i386.deb
+Size: 202916
+SHA256: 02c5256192f386d14957eb3fb82145ff08788e3c197f1fc1dba1a8e2d58cb773
+SHA1: 1dfa8c960d9f7d52f06bc7a9798ac3147fce16ac
+MD5sum: 8f14ad54685e1e6d823d526cc448d537
+Description: curses-based interface to the GNU Debugger (GDB)
+ CGDB is a curses frontend to the GNU Debugger (GDB). The goal of CGDB is
+ to be lightweight and responsive; not encumbered with unnecessary features.
+ .
+ The interface is designed to deliver the familiar GDB text interface, with a
+ split screen showing the source as it executes. The UI is modeled on the
+ classic Unix text editor, vi. Those familiar with vi should feel right at home
+ using CGDB.
+ .
+ Some features offered by CGDB are:
+   * Syntax-highlighted source window
+   * Visual breakpoint setting
+   * Keyboard shortcuts for common functions
+   * Searching source window (using regexp)
+
+Package: f2fs-tools
+Version: 1.14.0-3+schulstick1
+Architecture: i386
+Maintainer: Filesystems Group <filesystems-devel@lists.alioth.debian.org>
+Installed-Size: 610
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.17), libselinux1 (>= 3.1~), libuuid1 (>= 2.16)
+Homepage: https://www.kernel.org/doc/html/latest/filesystems/f2fs.html
+Priority: optional
+Section: admin
+Filename: pool/main/f/f2fs-tools/f2fs-tools_1.14.0-3+schulstick1_i386.deb
+Size: 183960
+SHA256: c71b3812812d3eae9e05a78a28797b11cb606379d3674eaed9b274363be3e3c4
+SHA1: ba9e6fa49e3ea24a310cf1fba2155a67ca2eefbc
+MD5sum: 5d28e51263d3bc8ea91218003040b07f
+Description: Tools for Flash-Friendly File System
+ F2FS is a new filesystem for Linux aimed at NAND flash memory-based storage
+ devices, such as SSD, eMMC, and SD cards. It is based on Log-structured File
+ System (LFS).
+
+Package: fsfw-stick-11-meta
+Version: 0.0.1
+Architecture: all
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Installed-Size: 9
+Multi-Arch: foreign
+Homepage: https://gitlab.com/freie-software-freies-wissen/usb-live-linux
+Priority: optional
+Section: metapackages
+Filename: pool/main/f/fsfw-stick-11-meta/fsfw-stick-11-meta_0.0.1_all.deb
+Size: 2180
+SHA256: 2f09972c8d32a6a2b3613206d147dd74846ad1940db3d417a687533f86647321
+SHA1: d69750290d261ff611f27d11ca675737c88448b1
+MD5sum: 7f8021d7df2caf73636f256396f5fdb3
+Description: usb-live-linux meta-package
+
+Package: inkscape-tutorials
+Source: inkscape
+Version: 1.2-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 73543
+Recommends: inkscape
+Breaks: inkscape (<= 0.92.3-2~)
+Replaces: inkscape (<= 0.92.3-2~)
+Multi-Arch: foreign
+Homepage: https://inkscape.org
+Priority: optional
+Section: graphics
+Filename: pool/main/i/inkscape/inkscape-tutorials_1.2-1_all.deb
+Size: 1756808
+SHA256: 5dabd781b2c8bfaded677f656658bbcda831913a91d2f4506fcc9754747adf59
+SHA1: bf1e190da77c48b002683be8ea2b062512b4bfe6
+MD5sum: 55f32a62c9c1296b1e726efbebe533e1
+Description: vector-based drawing program - tutorials
+ Inkscape is an illustration editor which has everything needed to
+ create professional-quality computer art. You can use it to make
+ diagrams and illustrations, technical drawings, web graphics, clip art,
+ icons and logos. A collection of hands-on tutorials show you how to
+ combine lines, shapes and text of different types and styles to build
+ up a picture.
+ .
+ This package contains the tutorials, accessible from the Help > Tutorials
+ menu.
+
+Package: libappindicator3-1
+Version: 1.0
+Architecture: all
+Maintainer: Equivs Dummy Package Generator <root@empeebase.ydns.eu>
+Installed-Size: 9
+Depends: libayatana-appindicator3-1
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/liba/libappindicator3-1/libappindicator3-1_1.0_all.deb
+Size: 2196
+SHA256: 8d4ee374bd012a1480649f2d2d845e509adc0df100ed5cee3aa9aaeccf1851ab
+SHA1: 3a8dc191a875d244dc403d91431c892abe63426c
+MD5sum: 29d80f336f4e46bc92813ca1a24c0a68
+Description: dependency stub for ubuntu .deb packages
+
+Package: libf2fs-dev
+Source: f2fs-tools
+Version: 1.14.0-3+schulstick1
+Architecture: i386
+Maintainer: Filesystems Group <filesystems-devel@lists.alioth.debian.org>
+Installed-Size: 186
+Depends: uuid-dev
+Multi-Arch: same
+Homepage: https://www.kernel.org/doc/html/latest/filesystems/f2fs.html
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/f2fs-tools/libf2fs-dev_1.14.0-3+schulstick1_i386.deb
+Size: 57856
+SHA256: f72e2856e8ebeead47f58c0ace5fa09c68ae370dab867a39c38543b717746b4c
+SHA1: 4c9722d68001cdb1af0bf1c28a6b1906ee25935e
+MD5sum: 7ce7d3e664c8ef5585569424ea876a59
+Description: Core library for Flash-Friendly File System - Development files
+ F2FS is a new filesystem for Linux aimed at NAND flash memory-based storage
+ devices, such as SSD, eMMC, and SD cards. It is based on Log-structured File
+ System (LFS).
+ .
+ This package contains the development files for the libf2fs library.
+
+Package: libf2fs-format-dev
+Source: f2fs-tools
+Version: 1.14.0-3+schulstick1
+Architecture: i386
+Maintainer: Filesystems Group <filesystems-devel@lists.alioth.debian.org>
+Installed-Size: 70
+Depends: uuid-dev
+Breaks: libf2fs-dev (<< 1.11.0-1~)
+Replaces: libf2fs-dev (<< 1.11.0-1~)
+Multi-Arch: same
+Homepage: https://www.kernel.org/doc/html/latest/filesystems/f2fs.html
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/f2fs-tools/libf2fs-format-dev_1.14.0-3+schulstick1_i386.deb
+Size: 23568
+SHA256: 940158a48909142a7ef347c27c0606c676aa2c78cfa78314f71c3956abcbfbd4
+SHA1: 1eae09a1de79f27a92f57edf8f86b0b746fad802
+MD5sum: e3aba899eb9cf81ad3ba0b98c9ae1607
+Description: Format library for Flash-Friendly File System - Development files
+ F2FS is a new filesystem for Linux aimed at NAND flash memory-based storage
+ devices, such as SSD, eMMC, and SD cards. It is based on Log-structured File
+ System (LFS).
+ .
+ This package contains the development files for the libf2fs-format library.
+
+Package: libgail-3-doc
+Source: gtk+3.0
+Version: 3.24.24-4+deb11u2.1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 189
+Suggests: devhelp
+Multi-Arch: foreign
+Homepage: https://www.gtk.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gtk+3.0/libgail-3-doc_3.24.24-4+deb11u2.1_all.deb
+Size: 84976
+SHA256: 2b7c0fee58921285ce66d391f366dd766abf87c1e666566f2356fb57de886980
+SHA1: 493595768d33bab7c9bc17e3195ee0b471ae94e6
+MD5sum: 8ffa68aa5879e810b903dc936b80abc3
+Description: documentation files of the Gail library
+ Gail implements ATK interfaces for GTK widgets which are dynamically
+ loadable at runtime by a GTK application. Once loaded, those parts of
+ an application that use standard GTK widgets will have a basic level
+ of accessibility, without the need to modify the application at all.
+ .
+ This package contains the documentation files for Gail.
+
+Package: libgtk-3-common
+Source: gtk+3.0
+Version: 3.24.24-4+deb11u2.1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 25587
+Depends: dconf-gsettings-backend | gsettings-backend
+Recommends: libgtk-3-0
+Multi-Arch: foreign
+Homepage: https://www.gtk.org/
+Priority: optional
+Section: misc
+Filename: pool/main/g/gtk+3.0/libgtk-3-common_3.24.24-4+deb11u2.1_all.deb
+Size: 3759372
+SHA256: 3637778cc3ed75f8f99b696bde63452b76f032cb8dce004d86445c2346b542d0
+SHA1: 5e607e3fe40cc25b8b767835bd4a7b2bdb40d173
+MD5sum: da8055b9adc053f41de1b7bc3cbe749d
+Description: common files for the GTK graphical user interface library
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the common files which the libraries need.
+
+Package: libgtk-3-doc
+Source: gtk+3.0
+Version: 3.24.24-4+deb11u2.1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 24673
+Recommends: libatk1.0-doc, libglib2.0-doc, libpango1.0-doc
+Suggests: devhelp
+Multi-Arch: foreign
+Homepage: https://www.gtk.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gtk+3.0/libgtk-3-doc_3.24.24-4+deb11u2.1_all.deb
+Size: 3435696
+SHA256: cf8d82ff774c1237737b7cc57dfc18c9afeafda82210c789001c4c93a694d261
+SHA1: f7f1f1066bb99f941327d737cc8e3c60bda6954e
+MD5sum: 41c6fe0c17ed18afdaf2bb5d6a1119a1
+Description: documentation for the GTK graphical user interface library
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the HTML documentation for the GTK library
+ in /usr/share/doc/libgtk-3-doc/ .
+
+Package: rtl8821ce-dkms
+Source: rtl8821ce
+Version: 5.5.2.1-0ubuntu8~repack.xz
+Architecture: all
+Maintainer: Canonical HWE Team <canonical-hwe@lists.canonical.com>
+Installed-Size: 24640
+Depends: dkms (>= 2.1.0.0), bc
+Homepage: https://launchpad.net/ubuntu/+source/rtl8821ce
+Priority: optional
+Section: kernel
+Filename: pool/main/r/rtl8821ce/rtl8821ce-dkms_5.5.2.1-0ubuntu8~repack.xz_all.deb
+Size: 2196804
+SHA256: 6183a6103c8eacd0db4b8befd412ae527289978f9939fcbb14cd9fb86d8afe2f
+SHA1: fea00ffe96592adb3aa683dc3c5b30c4c8cc202d
+MD5sum: 20d589ee21ca1823d314be4ea2997315
+Description: DKMS source for the Realtek 8821C PCIe Wi-Fi driver
+ Realtek provides the solution for WLAN in hardware and software. The software
+ package could be adopted for Realtek RTL8821CE WLAN series hardware on Linux
+ based platforms.
+ .
+ This package provides the DKMS source code for the rtl8821ce kernel module.
+ Kernel source or headers are required to compile these modules.
+Modaliases: rtl8821ce(pci:v000010ECd0000C821sv*sd*bc*sc*i*, pci:v000010ECd0000C82Asv*sd*bc*sc*i*, pci:v000010ECd0000C82Bsv*sd*bc*sc*i*)
+
+Package: xfce4-power-manager
+Version: 4.16.0-1+schulstick2
+Architecture: i386
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 678
+Depends: upower (>= 0.99), xfce4-power-manager-data (= 4.16.0-1+schulstick2), libc6 (>= 2.27), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.21.5), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libupower-glib3 (>= 0.99.8), libx11-6, libxext6, libxfce4ui-2-0 (>= 4.13), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.10.0), libxrandr2 (>= 2:1.2.99.2)
+Recommends: default-logind | logind, xfce4-power-manager-plugins
+Homepage: https://docs.xfce.org/xfce/xfce4-power-manager/start
+Priority: optional
+Section: xfce
+Filename: pool/main/x/xfce4-power-manager/xfce4-power-manager_4.16.0-1+schulstick2_i386.deb
+Size: 300760
+SHA256: 661f89c99b19eaff60734abb73a09c989b6292180936fda308538eea860bc5d7
+SHA1: 6266eba5cbc493c2322a6e2245a8cc2ab7f7a28d
+MD5sum: 6ebc4ecd99719fd14feaf94cd92a4286
+Description: power manager for Xfce desktop
+ This power manager for the Xfce desktop enables laptop users to set up
+ a power profile for two different modes "on battery power" and "on ac
+ power" while still allowing desktop users to at least change the DPMS
+ settings and CPU frequency using the settings dialogue..
+ .
+ It features:
+   * battery monitoring
+   * cpu frequency settings
+   * monitor DPMS settings
+   * suspend/Hibernate
+   * LCD brightness control
+   * Lid, sleep and power switches control
+
+Package: xfce4-power-manager-data
+Source: xfce4-power-manager
+Version: 4.16.0-1+schulstick2
+Architecture: all
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 3575
+Recommends: librsvg2-common, xfce4-power-manager
+Replaces: xfce4-power-manager (<< 0.8.0~beta2-1)
+Homepage: https://docs.xfce.org/xfce/xfce4-power-manager/start
+Priority: optional
+Section: xfce
+Filename: pool/main/x/xfce4-power-manager/xfce4-power-manager-data_4.16.0-1+schulstick2_all.deb
+Size: 585512
+SHA256: 147c1cd81936aa77dfc0f18a2bafc05b131fb2dd27366685eca010d1b858a8de
+SHA1: d71c0e1fa00952cdde138a737ef4f0f9a328587f
+MD5sum: b10dc40a3b64e620b4b51322266ae7a1
+Description: power manager for Xfce desktop, arch-indep files
+ This power manager for the Xfce desktop enables laptop users to set up
+ a power profile for two different modes "on battery power" and "on ac
+ power" while still allowing desktop users to at least change the DPMS
+ settings and CPU frequency using the settings dialogue..
+ .
+ This package contains architecture-independant files.
+
+Package: xfce4-power-manager-plugins
+Source: xfce4-power-manager
+Version: 4.16.0-1+schulstick2
+Architecture: i386
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 292
+Depends: xfce4-power-manager (>= 0.8.0~), libc6 (>= 2.27), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libupower-glib3 (>= 0.99.8), libx11-6, libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.10.0), libxrandr2 (>= 2:1.2.99.2)
+Homepage: https://docs.xfce.org/xfce/xfce4-power-manager/start
+Priority: optional
+Section: xfce
+Filename: pool/main/x/xfce4-power-manager/xfce4-power-manager-plugins_4.16.0-1+schulstick2_i386.deb
+Size: 220148
+SHA256: 1f81bbb957f3b4f6fce6dd04d4d7f9eea8f82093c83cbabdd70c6a431189e3ec
+SHA1: ff11c0de2667ec385019e001f6a86a9547fda0ee
+MD5sum: dad4c9f2c383d553b5c6efb9f019c0bd
+Description: power manager plugins for Xfce panel
+ This power manager for the Xfce desktop enables laptop users to set up
+ a power profile for two different modes "on battery power" and "on ac
+ power" while still allowing desktop users to at least change the DPMS
+ settings and CPU frequency using the settings dialogue..
+ .
+ This package contains the brightness plugin.
+

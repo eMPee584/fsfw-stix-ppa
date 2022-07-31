@@ -1,0 +1,16 @@
+Package: schulstick-11-gym-dd-plauen-meta
+Version: 0.0.1
+Architecture: all
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Installed-Size: 9
+Multi-Arch: foreign
+Homepage: https://gitlab.com/freie-software-freies-wissen/usb-live-linux
+Priority: optional
+Section: metapackages
+Filename: pool/main/s/schulstick-11-gym-dd-plauen-meta/schulstick-11-gym-dd-plauen-meta_0.0.1_all.deb
+Size: 2228
+SHA256: 37cbd53ba1e2b62b9476e783d838a3dcf22ab2f651c7dd08e72647249282b798
+SHA1: 6d20e40c9938c9cc92eef15613fc1784db87bc7e
+MD5sum: e011c728dc96786790eba0ef0bd5bfb9
+Description: schulstick.org meta-package for Gymnasium Dresden Plauen
+

@@ -1,0 +1,674 @@
+Package: cgdb
+Version: 0.8.0-1~schulstick.bpo1
+Architecture: amd64
+Maintainer: Sebastian Ramacher <sramacher@debian.org>
+Installed-Size: 511
+Depends: libc6 (>= 2.15), libgcc-s1 (>= 3.0), libncursesw6 (>= 6), libreadline8 (>= 6.0), libstdc++6 (>= 5.2), libtinfo6 (>= 6), gdb
+Homepage: https://cgdb.github.io/
+Priority: optional
+Section: devel
+Filename: pool/main/c/cgdb/cgdb_0.8.0-1~schulstick.bpo1_amd64.deb
+Size: 195676
+SHA256: 201226fef032ccc827d619f8729d8371da15674c2383be946f3b44db118dbf82
+SHA1: e938ff3c606cf4479cfb141590da5fa527b2de17
+MD5sum: 9b8ba56ecf99d88d77779579388bc078
+Description: curses-based interface to the GNU Debugger (GDB)
+ CGDB is a curses frontend to the GNU Debugger (GDB). The goal of CGDB is
+ to be lightweight and responsive; not encumbered with unnecessary features.
+ .
+ The interface is designed to deliver the familiar GDB text interface, with a
+ split screen showing the source as it executes. The UI is modeled on the
+ classic Unix text editor, vi. Those familiar with vi should feel right at home
+ using CGDB.
+ .
+ Some features offered by CGDB are:
+   * Syntax-highlighted source window
+   * Visual breakpoint setting
+   * Keyboard shortcuts for common functions
+   * Searching source window (using regexp)
+
+Package: f2fs-tools
+Version: 1.14.0-3+schulstick1
+Architecture: amd64
+Maintainer: Filesystems Group <filesystems-devel@lists.alioth.debian.org>
+Installed-Size: 561
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.17), libselinux1 (>= 3.1~), libuuid1 (>= 2.16)
+Homepage: https://www.kernel.org/doc/html/latest/filesystems/f2fs.html
+Priority: optional
+Section: admin
+Filename: pool/main/f/f2fs-tools/f2fs-tools_1.14.0-3+schulstick1_amd64.deb
+Size: 169488
+SHA256: a1c7c6cbafbc12ec5cc7c4f359cbc73a1ccde030899c5a94d0bf20805fdfab2a
+SHA1: a28927989153538e1b8d9dbb5f1ffe695e82238c
+MD5sum: 39aff9283caed7eaad2057541919d65a
+Description: Tools for Flash-Friendly File System
+ F2FS is a new filesystem for Linux aimed at NAND flash memory-based storage
+ devices, such as SSD, eMMC, and SD cards. It is based on Log-structured File
+ System (LFS).
+
+Package: fsfw-stick-11-meta
+Version: 0.0.1
+Architecture: all
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Installed-Size: 9
+Multi-Arch: foreign
+Homepage: https://gitlab.com/freie-software-freies-wissen/usb-live-linux
+Priority: optional
+Section: metapackages
+Filename: pool/main/f/fsfw-stick-11-meta/fsfw-stick-11-meta_0.0.1_all.deb
+Size: 2180
+SHA256: 2f09972c8d32a6a2b3613206d147dd74846ad1940db3d417a687533f86647321
+SHA1: d69750290d261ff611f27d11ca675737c88448b1
+MD5sum: 7f8021d7df2caf73636f256396f5fdb3
+Description: usb-live-linux meta-package
+
+Package: gir1.2-gtk-3.0
+Source: gtk+3.0
+Version: 3.24.24-4+deb11u2.1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1012
+Depends: gir1.2-atk-1.0 (>= 2.35.1), gir1.2-freedesktop (>= 1.39.0), gir1.2-gdkpixbuf-2.0 (>= 2.40.0) | libgdk-pixbuf2.0-dev (>= 2.40.0), gir1.2-glib-2.0 (>= 1.39.0), gir1.2-pango-1.0 (>= 1.41.0), libgtk-3-0 (>= 3.24.24), libgtk-3-common
+Breaks: python-gi (<< 3.18), python3-gi (<< 3.18)
+Provides: gir1.2-gdk-3.0 (= 3.24.24-4+deb11u2.1), gir1.2-gdkx11-3.0 (= 3.24.24-4+deb11u2.1)
+Multi-Arch: same
+Homepage: https://www.gtk.org/
+Priority: optional
+Section: introspection
+Filename: pool/main/g/gtk+3.0/gir1.2-gtk-3.0_3.24.24-4+deb11u2.1_amd64.deb
+Size: 259096
+SHA256: 4f6430f7501935c7fa03e068fdb8c6ff4ee3a77280d99f236ec2e780aa72a8fd
+SHA1: 063976d34bed2b7d6751793d41e41af4355d1381
+MD5sum: b02dc6df2fd3d5efa026237b52ab98e3
+Description: GTK graphical user interface library -- gir bindings
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings.
+
+Package: gtk-3-examples
+Source: gtk+3.0
+Version: 3.24.24-4+deb11u2.1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 14951
+Depends: dconf-gsettings-backend | gsettings-backend, libatk1.0-0 (>= 2.35.1), libc6 (>= 2.4), libcairo2 (>= 1.14.0), libepoxy0 (>= 1.0), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0 (>= 2.59.0), libgtk-3-0 (= 3.24.24-4+deb11u2.1), libharfbuzz0b (>= 0.9.9), libpango-1.0-0 (>= 1.41.0), libpangocairo-1.0-0 (>= 1.41.0), libpangoft2-1.0-0 (>= 1.41.0), libx11-6
+Homepage: https://www.gtk.org/
+Priority: optional
+Section: x11
+Filename: pool/main/g/gtk+3.0/gtk-3-examples_3.24.24-4+deb11u2.1_amd64.deb
+Size: 1744540
+SHA256: 2d1bfb021f67f86ea514eb4096622427153c2ef91bf61c4c4a248f05f1220503
+SHA1: 12df5cf5c114f2ca2d980dcea1b00bb40ab0a294
+MD5sum: 7c1d050f084a9243a85709f2e50df7c4
+Description: example files for GTK 3
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the example files and a demonstration program
+ for GTK3. It also contains the installed tests.
+
+Package: gtk-update-icon-cache
+Source: gtk+3.0
+Version: 3.24.24-4+deb11u2.1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 153
+Depends: libc6 (>= 2.4), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0 (>= 2.57.2)
+Breaks: libgtk-3-bin (<< 3.20.6-1), libgtk2.0-bin (<< 2.24.30-2)
+Replaces: libgtk-3-bin (<< 3.20.6-1), libgtk2.0-bin (<< 2.24.30-2)
+Multi-Arch: foreign
+Homepage: https://www.gtk.org/
+Priority: optional
+Section: misc
+Filename: pool/main/g/gtk+3.0/gtk-update-icon-cache_3.24.24-4+deb11u2.1_amd64.deb
+Size: 88208
+SHA256: 64baee01362bec5b35fc0b8ff28c719086093678007d060f9c6de42d1177cd3a
+SHA1: fffda475bc356c3bdea3d8a8f72a09ebbd096a40
+MD5sum: 5d77643328cf86dbd1052b3982f93619
+Description: icon theme caching utility
+ gtk-update-icon-cache creates mmap()able cache files for icon themes.
+ .
+ GTK can use the cache files created by gtk-update-icon-cache to avoid a lot
+ of system call and disk seek overhead when the application starts. Since the
+ format of the cache files allows them to be mmap()ed shared between multiple
+ applications, the overall memory consumption is reduced as well.
+
+Package: inkscape
+Version: 1.2-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 98056
+Depends: librsvg2-common, python3:any, lib2geom1.1.0 (>= 1.1), libatkmm-1.6-1v5 (>= 2.24.0), libboost-filesystem1.74.0 (>= 1.74.0), libc6 (>= 2.29), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.15.10), libcairomm-1.0-1v5 (>= 1.12.0), libcdr-0.1-1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.7.1), libgc1 (>= 1:7.2d), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.63.1), libglibmm-2.4-1v5 (>= 2.64.2), libgomp1 (>= 4.9), libgsl25 (>= 2.6), libgspell-1-2 (>= 1.8.2), libgtk-3-0 (>= 3.21.5), libgtkmm-3.0-1v5 (>= 3.24.0), libharfbuzz0b (>= 2.6.5), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libmagick++-6.q16-8, libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.37.2), libpangomm-1.4-1v5 (>= 2.42.0), libpng16-16 (>= 1.6.2-1), libpoppler-glib8 (>= 0.18.0), libpoppler102 (>= 20.09.0), libpotrace0, libreadline8 (>= 6.0), librevenge-0.0-0, libsigc++-2.0-0v5 (>= 2.8.0), libsoup2.4-1 (>= 2.41.90), libstdc++6 (>= 9), libvisio-0.1-1, libwpg-0.3-3, libx11-6, libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Recommends: aspell, fig2dev, imagemagick, libimage-magick-perl, libwmf-bin, python3-lxml, python3-numpy, python3-scour
+Suggests: dia, inkscape-tutorials, libsvg-perl, pstoedit, python3-cssselect, python3-packaging, python3-uniconvertor, ruby
+Homepage: https://inkscape.org
+Priority: optional
+Section: graphics
+Filename: pool/main/i/inkscape/inkscape_1.2-1_amd64.deb
+Size: 20532144
+SHA256: 9b9365f467f919b7108687e5e9c02c718dd7e8e41f7cf1e6161558639d7d2491
+SHA1: df47f3cd88dc6ef104d03e45cf35bc39a0a083e6
+MD5sum: 46ba1ee37c259d2862a297fa38b78c05
+Description: vector-based drawing program
+ Inkscape is an illustration editor which has everything needed to
+ create professional-quality computer art. You can use it to make
+ diagrams and illustrations, technical drawings, web graphics, clip art,
+ icons and logos. A collection of hands-on tutorials show you how to
+ combine lines, shapes and text of different types and styles to build
+ up a picture.
+ .
+ A selection of powerful vector graphics editing tools comes as
+ standard. There is excellent support for paths, gradients, layers,
+ alpha transparency and text flow control. An extensive library of
+ filters allow you to apply realistic effects and extensions allow you
+ to work with bitmaps, barcodes and printing marks, amongst other things.
+ .
+ Most of the common vector formats are supported, including PDF, Adobe
+ Illustrator and AutoCAD files, and it has unrivalled support for the
+ SVG web graphics standard.
+ .
+ Between the suggested packages:
+  * dia: to export Dia shapes;
+  * libsvg-perl: to import .txt files (txt2svg extension);
+  * python3-cssselect: used by the css extension;
+  * python3-packaging: used by the Optimized SVG extension;
+  * python3-uniconvertor: enables several import/export extensions;
+  * pstoedit: to work with eps files;
+  * ruby: there are several extensions written in ruby;
+
+Package: inkscape-tutorials
+Source: inkscape
+Version: 1.2-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 73543
+Recommends: inkscape
+Breaks: inkscape (<= 0.92.3-2~)
+Replaces: inkscape (<= 0.92.3-2~)
+Multi-Arch: foreign
+Homepage: https://inkscape.org
+Priority: optional
+Section: graphics
+Filename: pool/main/i/inkscape/inkscape-tutorials_1.2-1_all.deb
+Size: 1756808
+SHA256: 5dabd781b2c8bfaded677f656658bbcda831913a91d2f4506fcc9754747adf59
+SHA1: bf1e190da77c48b002683be8ea2b062512b4bfe6
+MD5sum: 55f32a62c9c1296b1e726efbebe533e1
+Description: vector-based drawing program - tutorials
+ Inkscape is an illustration editor which has everything needed to
+ create professional-quality computer art. You can use it to make
+ diagrams and illustrations, technical drawings, web graphics, clip art,
+ icons and logos. A collection of hands-on tutorials show you how to
+ combine lines, shapes and text of different types and styles to build
+ up a picture.
+ .
+ This package contains the tutorials, accessible from the Help > Tutorials
+ menu.
+
+Package: lib2geom-dev
+Source: lib2geom
+Version: 1.1-3
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 841
+Depends: lib2geom1.1.0 (= 1.1-3)
+Multi-Arch: same
+Homepage: https://gitlab.com/inkscape/lib2geom
+Priority: optional
+Section: libdevel
+Filename: pool/main/lib2/lib2geom/lib2geom-dev_1.1-3_amd64.deb
+Size: 127748
+SHA256: afb1b601459be76dcffbe905fae9eebe4042d1c0c9ab061355546158d53f654c
+SHA1: 4b925884ff8c159109fc27e5eaadd6642662a5d3
+MD5sum: f81331702a1865854b03fe6825fcc1ce
+Description: robust computational geometry framework -- development library
+ 2Geom is a C++ 2D geometry library geared towards robust processing of
+ computational geometry data associated with vector graphics. The primary
+ design consideration is ease of use and clarity. It is dual-licensed
+ under LGPL 2.1 and MPL 1.1.
+ .
+ The library is descended from a set of geometric routines present in
+ Inkscape, a vector graphics editor based around the Scalable Vector
+ Graphics format, the most widespread vector graphics interchange format
+ on the Web and a W3C Recommendation. Due to this legacy, not all parts
+ of the API form a coherent whole (yet).
+ .
+ Rendering is outside the scope of this library, and it is assumed
+ something like libcairo or similar is employed for this.  2geom
+ concentrates on higher level algorithms and geometric computations.
+ .
+ This package contains the development files needed to build against 2geom.
+
+Package: lib2geom1.1.0
+Source: lib2geom
+Version: 1.1-3
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 1128
+Depends: libc6 (>= 2.29), libcairo2 (>= 1.2.4), libdouble-conversion3 (>= 2.0.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgsl25 (>= 2.6), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: https://gitlab.com/inkscape/lib2geom
+Priority: optional
+Section: libs
+Filename: pool/main/lib2/lib2geom/lib2geom1.1.0_1.1-3_amd64.deb
+Size: 369820
+SHA256: 52b718e5afd1c46cc04876fdc29f1b65b062d917c63ee3406abfd2cf83bed947
+SHA1: 798e91ba61db3dd2adcf8646eff6c39d992acf37
+MD5sum: 27f9eed0cddf0da217581998b9f35deb
+Description: robust computational geometry framework -- shared library
+ 2Geom is a C++ 2D geometry library geared towards robust processing of
+ computational geometry data associated with vector graphics. The primary
+ design consideration is ease of use and clarity. It is dual-licensed
+ under LGPL 2.1 and MPL 1.1.
+ .
+ The library is descended from a set of geometric routines present in
+ Inkscape, a vector graphics editor based around the Scalable Vector
+ Graphics format, the most widespread vector graphics interchange format
+ on the Web and a W3C Recommendation. Due to this legacy, not all parts
+ of the API form a coherent whole (yet).
+ .
+ Rendering is outside the scope of this library, and it is assumed
+ something like libcairo or similar is employed for this.  2geom
+ concentrates on higher level algorithms and geometric computations.
+ .
+ This package contains the shared library.
+
+Package: libappindicator3-1
+Version: 1.0
+Architecture: all
+Maintainer: Equivs Dummy Package Generator <root@empeebase.ydns.eu>
+Installed-Size: 9
+Depends: libayatana-appindicator3-1
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/liba/libappindicator3-1/libappindicator3-1_1.0_all.deb
+Size: 2196
+SHA256: 8d4ee374bd012a1480649f2d2d845e509adc0df100ed5cee3aa9aaeccf1851ab
+SHA1: 3a8dc191a875d244dc403d91431c892abe63426c
+MD5sum: 29d80f336f4e46bc92813ca1a24c0a68
+Description: dependency stub for ubuntu .deb packages
+
+Package: libf2fs-dev
+Source: f2fs-tools
+Version: 1.14.0-3+schulstick1
+Architecture: amd64
+Maintainer: Filesystems Group <filesystems-devel@lists.alioth.debian.org>
+Installed-Size: 191
+Depends: uuid-dev
+Multi-Arch: same
+Homepage: https://www.kernel.org/doc/html/latest/filesystems/f2fs.html
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/f2fs-tools/libf2fs-dev_1.14.0-3+schulstick1_amd64.deb
+Size: 55352
+SHA256: 7aeeef901435cc7acc5f0a25e6f74d2a822a3b1fd76fa8e3b90cd0108c9a8c1b
+SHA1: 472b0d06a299f4ec4e96dd00e7c776831ef4b355
+MD5sum: 16f96e87ac87f0a2c8f56b04d258e3b5
+Description: Core library for Flash-Friendly File System - Development files
+ F2FS is a new filesystem for Linux aimed at NAND flash memory-based storage
+ devices, such as SSD, eMMC, and SD cards. It is based on Log-structured File
+ System (LFS).
+ .
+ This package contains the development files for the libf2fs library.
+
+Package: libf2fs-format-dev
+Source: f2fs-tools
+Version: 1.14.0-3+schulstick1
+Architecture: amd64
+Maintainer: Filesystems Group <filesystems-devel@lists.alioth.debian.org>
+Installed-Size: 89
+Depends: uuid-dev
+Breaks: libf2fs-dev (<< 1.11.0-1~)
+Replaces: libf2fs-dev (<< 1.11.0-1~)
+Multi-Arch: same
+Homepage: https://www.kernel.org/doc/html/latest/filesystems/f2fs.html
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/f2fs-tools/libf2fs-format-dev_1.14.0-3+schulstick1_amd64.deb
+Size: 22944
+SHA256: 15b4d0aa33228448ede5f3024656d9ed7ab1d2dfc0c560445526021b0f877e6f
+SHA1: decc831f78ea6d8cec5ec50a9b40202aaeeac071
+MD5sum: 076f39a4ce0564da9b742aa4b2a20d59
+Description: Format library for Flash-Friendly File System - Development files
+ F2FS is a new filesystem for Linux aimed at NAND flash memory-based storage
+ devices, such as SSD, eMMC, and SD cards. It is based on Log-structured File
+ System (LFS).
+ .
+ This package contains the development files for the libf2fs-format library.
+
+Package: libgail-3-0
+Source: gtk+3.0
+Version: 3.24.24-4+deb11u2.1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 148
+Depends: at-spi2-core, libatk1.0-0 (>= 2.35.1), libc6 (>= 2.4), libglib2.0-0 (>= 2.57.2), libgtk-3-0 (= 3.24.24-4+deb11u2.1), libpango-1.0-0 (>= 1.41.0)
+Multi-Arch: same
+Homepage: https://www.gtk.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gtk+3.0/libgail-3-0_3.24.24-4+deb11u2.1_amd64.deb
+Size: 84896
+SHA256: 0ce197a93f4a73fdaf07b73031e36764c3b6ac28445fedd04797e1992688fd40
+SHA1: 7c166ff81bfe3cd88a282490a527dcfa2bb98d3a
+MD5sum: 8355613c147090b7919ab5460d343ba9
+Description: GNOME Accessibility Implementation Library -- shared libraries
+ Gail implements ATK interfaces for GTK widgets which are dynamically
+ loadable at runtime by a GTK application. Once loaded, those parts of
+ an application that use standard GTK widgets will have a basic level
+ of accessibility, without the need to modify the application at all.
+ .
+ This package contains the shared library.
+
+Package: libgail-3-dev
+Source: gtk+3.0
+Version: 3.24.24-4+deb11u2.1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 123
+Depends: libatk1.0-dev, libgail-3-0 (= 3.24.24-4+deb11u2.1), pkg-config, libgtk-3-dev (= 3.24.24-4+deb11u2.1)
+Suggests: libgail-3-doc
+Multi-Arch: same
+Homepage: https://www.gtk.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gtk+3.0/libgail-3-dev_3.24.24-4+deb11u2.1_amd64.deb
+Size: 76416
+SHA256: 8d4254bebc38fdc82b4cd2786bef0b86331f8fbe730bbbd2f57e660db4595352
+SHA1: 312690ed714aa4cd1590fd8e21feff9f11b23014
+MD5sum: b1e0ca142737c16172186fa034d71307
+Description: GNOME Accessibility Implementation Library -- development files
+ Gail implements ATK interfaces for GTK widgets which are dynamically
+ loadable at runtime by a GTK application. Once loaded, those parts of
+ an application that use standard GTK widgets will have a basic level
+ of accessibility, without the need to modify the application at all.
+ .
+ This package contains the development files for Gail.
+
+Package: libgail-3-doc
+Source: gtk+3.0
+Version: 3.24.24-4+deb11u2.1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 189
+Suggests: devhelp
+Multi-Arch: foreign
+Homepage: https://www.gtk.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gtk+3.0/libgail-3-doc_3.24.24-4+deb11u2.1_all.deb
+Size: 84976
+SHA256: 2b7c0fee58921285ce66d391f366dd766abf87c1e666566f2356fb57de886980
+SHA1: 493595768d33bab7c9bc17e3195ee0b471ae94e6
+MD5sum: 8ffa68aa5879e810b903dc936b80abc3
+Description: documentation files of the Gail library
+ Gail implements ATK interfaces for GTK widgets which are dynamically
+ loadable at runtime by a GTK application. Once loaded, those parts of
+ an application that use standard GTK widgets will have a basic level
+ of accessibility, without the need to modify the application at all.
+ .
+ This package contains the documentation files for Gail.
+
+Package: libgtk-3-0
+Source: gtk+3.0
+Version: 3.24.24-4+deb11u2.1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 9804
+Depends: adwaita-icon-theme, hicolor-icon-theme, shared-mime-info, libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.35.1), libc6 (>= 2.29), libcairo-gobject2 (>= 1.14.0), libcairo2 (>= 1.14.0), libcolord2 (>= 0.1.10), libcups2 (>= 1.7.0), libepoxy0 (>= 1.4.3), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.7), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0 (>= 2.59.0), libharfbuzz0b (>= 1.2.6), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.45.5), libpangocairo-1.0-0 (>= 1.41.0), libpangoft2-1.0-0 (>= 1.41.0), librest-0.7-0 (>= 0.7), libwayland-client0 (>= 1.14.91), libwayland-cursor0 (>= 1.14.91), libwayland-egl1 (>= 1.15.0), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.4.5), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1, libxkbcommon0 (>= 0.5.0), libxrandr2 (>= 2:1.5.0), libgtk-3-common (>= 3.24.24-4+deb11u2.1)
+Recommends: libgtk-3-bin, librsvg2-common
+Suggests: gvfs
+Provides: gtk3-binver-3.0.0
+Multi-Arch: same
+Homepage: https://www.gtk.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gtk+3.0/libgtk-3-0_3.24.24-4+deb11u2.1_amd64.deb
+Size: 2715336
+SHA256: d13d4da1b5ec372ddac397877770d9ee523f089fbed969d7e227a10deb5207e5
+SHA1: eeb936c73c78dac5f44caa9dbe887ca057a95c8b
+MD5sum: 3a218bcb72d45d7e89e0d11a76f897bf
+Description: GTK graphical user interface library
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the shared libraries.
+
+Package: libgtk-3-bin
+Source: gtk+3.0
+Version: 3.24.24-4+deb11u2.1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 330
+Depends: gtk-update-icon-cache, libc6 (>= 2.4), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.40.0), libglib2.0-0 (>= 2.57.2), libgtk-3-0 (>= 3.24.24-4+deb11u2.1), libgtk-3-common (>= 3.24.24-4+deb11u2.1)
+Breaks: gtk-3-examples (<< 3.24.13)
+Replaces: gtk-3-examples (<< 3.24.13)
+Multi-Arch: foreign
+Homepage: https://www.gtk.org/
+Priority: optional
+Section: misc
+Filename: pool/main/g/gtk+3.0/libgtk-3-bin_3.24.24-4+deb11u2.1_amd64.deb
+Size: 124472
+SHA256: e4a42c37d7d74bb25f33fab8e475e89d9b5272d7d3ca60f1288cc7ccf9296738
+SHA1: f2aed02229c7296c7e3d6ab02647425a4ca3a911
+MD5sum: e95fa0a7109be8ff3a856bd2d3795839
+Description: programs for the GTK graphical user interface library
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the utilities which are used by the libraries
+ and other packages.
+
+Package: libgtk-3-common
+Source: gtk+3.0
+Version: 3.24.24-4+deb11u2.1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 25587
+Depends: dconf-gsettings-backend | gsettings-backend
+Recommends: libgtk-3-0
+Multi-Arch: foreign
+Homepage: https://www.gtk.org/
+Priority: optional
+Section: misc
+Filename: pool/main/g/gtk+3.0/libgtk-3-common_3.24.24-4+deb11u2.1_all.deb
+Size: 3759372
+SHA256: 3637778cc3ed75f8f99b696bde63452b76f032cb8dce004d86445c2346b542d0
+SHA1: 5e607e3fe40cc25b8b767835bd4a7b2bdb40d173
+MD5sum: da8055b9adc053f41de1b7bc3cbe749d
+Description: common files for the GTK graphical user interface library
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the common files which the libraries need.
+
+Package: libgtk-3-dev
+Source: gtk+3.0
+Version: 3.24.24-4+deb11u2.1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 13761
+Depends: gir1.2-gtk-3.0 (= 3.24.24-4+deb11u2.1), libatk-bridge2.0-dev (>= 2.15.1), libatk1.0-dev (>= 2.35.1), libcairo2-dev (>= 1.14.0), libegl1-mesa-dev, libepoxy-dev (>= 1.0), libfontconfig1-dev, libfribidi-dev (>= 0.19.7), libgdk-pixbuf-2.0-dev (>= 2.40.0) | libgdk-pixbuf2.0-dev (>= 2.40.0), libglib2.0-dev (>= 2.57.2), libpango1.0-dev (>= 1.41), libwayland-dev (>= 1.9.91), libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev, libxrandr-dev, pkg-config, wayland-protocols (>= 1.17), dconf-gsettings-backend | gsettings-backend, libgtk-3-common, libgtk-3-0 (= 3.24.24-4+deb11u2.1)
+Suggests: libgtk-3-doc
+Multi-Arch: same
+Homepage: https://www.gtk.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gtk+3.0/libgtk-3-dev_3.24.24-4+deb11u2.1_amd64.deb
+Size: 1144768
+SHA256: 815bfa55c00c1cea6388444564426683ae1a62c64d519e3764b502c8c333ff2a
+SHA1: 1db2ac1e0b8d15867630942ee25c6170989111f1
+MD5sum: ad8033b0217c7cd199c907daf9c2a461
+Description: development files for the GTK library
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the header and development files which are
+ needed for building GTK applications.
+
+Package: libgtk-3-doc
+Source: gtk+3.0
+Version: 3.24.24-4+deb11u2.1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 24673
+Recommends: libatk1.0-doc, libglib2.0-doc, libpango1.0-doc
+Suggests: devhelp
+Multi-Arch: foreign
+Homepage: https://www.gtk.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gtk+3.0/libgtk-3-doc_3.24.24-4+deb11u2.1_all.deb
+Size: 3435696
+SHA256: cf8d82ff774c1237737b7cc57dfc18c9afeafda82210c789001c4c93a694d261
+SHA1: f7f1f1066bb99f941327d737cc8e3c60bda6954e
+MD5sum: 41c6fe0c17ed18afdaf2bb5d6a1119a1
+Description: documentation for the GTK graphical user interface library
+ GTK is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the HTML documentation for the GTK library
+ in /usr/share/doc/libgtk-3-doc/ .
+
+Package: rtl8821ce-dkms
+Source: rtl8821ce
+Version: 5.5.2.1-0ubuntu8~repack.xz
+Architecture: all
+Maintainer: Canonical HWE Team <canonical-hwe@lists.canonical.com>
+Installed-Size: 24640
+Depends: dkms (>= 2.1.0.0), bc
+Homepage: https://launchpad.net/ubuntu/+source/rtl8821ce
+Priority: optional
+Section: kernel
+Filename: pool/main/r/rtl8821ce/rtl8821ce-dkms_5.5.2.1-0ubuntu8~repack.xz_all.deb
+Size: 2196804
+SHA256: 6183a6103c8eacd0db4b8befd412ae527289978f9939fcbb14cd9fb86d8afe2f
+SHA1: fea00ffe96592adb3aa683dc3c5b30c4c8cc202d
+MD5sum: 20d589ee21ca1823d314be4ea2997315
+Description: DKMS source for the Realtek 8821C PCIe Wi-Fi driver
+ Realtek provides the solution for WLAN in hardware and software. The software
+ package could be adopted for Realtek RTL8821CE WLAN series hardware on Linux
+ based platforms.
+ .
+ This package provides the DKMS source code for the rtl8821ce kernel module.
+ Kernel source or headers are required to compile these modules.
+Modaliases: rtl8821ce(pci:v000010ECd0000C821sv*sd*bc*sc*i*, pci:v000010ECd0000C82Asv*sd*bc*sc*i*, pci:v000010ECd0000C82Bsv*sd*bc*sc*i*)
+
+Package: xfce4-power-manager
+Version: 4.16.0-1+schulstick2
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 658
+Depends: upower (>= 0.99), xfce4-power-manager-data (= 4.16.0-1+schulstick2), libc6 (>= 2.27), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.21.5), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libupower-glib3 (>= 0.99.8), libx11-6, libxext6, libxfce4ui-2-0 (>= 4.13), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.10.0), libxrandr2 (>= 2:1.2.99.2)
+Recommends: default-logind | logind, xfce4-power-manager-plugins
+Homepage: https://docs.xfce.org/xfce/xfce4-power-manager/start
+Priority: optional
+Section: xfce
+Filename: pool/main/x/xfce4-power-manager/xfce4-power-manager_4.16.0-1+schulstick2_amd64.deb
+Size: 295140
+SHA256: 0815d37a09bc152465a17e58e36392e66ab7c74ebb20c910fc26e1b448fc3f55
+SHA1: cb9294041d164c453edf5091f885629ee7d99eed
+MD5sum: 8fef135e04d6674e8be96e4c3683b538
+Description: power manager for Xfce desktop
+ This power manager for the Xfce desktop enables laptop users to set up
+ a power profile for two different modes "on battery power" and "on ac
+ power" while still allowing desktop users to at least change the DPMS
+ settings and CPU frequency using the settings dialogue..
+ .
+ It features:
+   * battery monitoring
+   * cpu frequency settings
+   * monitor DPMS settings
+   * suspend/Hibernate
+   * LCD brightness control
+   * Lid, sleep and power switches control
+
+Package: xfce4-power-manager-data
+Source: xfce4-power-manager
+Version: 4.16.0-1+schulstick2
+Architecture: all
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 3575
+Recommends: librsvg2-common, xfce4-power-manager
+Replaces: xfce4-power-manager (<< 0.8.0~beta2-1)
+Homepage: https://docs.xfce.org/xfce/xfce4-power-manager/start
+Priority: optional
+Section: xfce
+Filename: pool/main/x/xfce4-power-manager/xfce4-power-manager-data_4.16.0-1+schulstick2_all.deb
+Size: 585512
+SHA256: 147c1cd81936aa77dfc0f18a2bafc05b131fb2dd27366685eca010d1b858a8de
+SHA1: d71c0e1fa00952cdde138a737ef4f0f9a328587f
+MD5sum: b10dc40a3b64e620b4b51322266ae7a1
+Description: power manager for Xfce desktop, arch-indep files
+ This power manager for the Xfce desktop enables laptop users to set up
+ a power profile for two different modes "on battery power" and "on ac
+ power" while still allowing desktop users to at least change the DPMS
+ settings and CPU frequency using the settings dialogue..
+ .
+ This package contains architecture-independant files.
+
+Package: xfce4-power-manager-plugins
+Source: xfce4-power-manager
+Version: 4.16.0-1+schulstick2
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 288
+Depends: xfce4-power-manager (>= 0.8.0~), libc6 (>= 2.27), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libupower-glib3 (>= 0.99.8), libx11-6, libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.13.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.10.0), libxrandr2 (>= 2:1.2.99.2)
+Homepage: https://docs.xfce.org/xfce/xfce4-power-manager/start
+Priority: optional
+Section: xfce
+Filename: pool/main/x/xfce4-power-manager/xfce4-power-manager-plugins_4.16.0-1+schulstick2_amd64.deb
+Size: 217656
+SHA256: 5697a70541ec487364f67a71af8c254f9ce9d3878ba946da99aa4735a30e7561
+SHA1: de81301b1e661086a55dc1629359f52b536fd79a
+MD5sum: 9a1ca6fb48d550cf6e3baa35a85c2900
+Description: power manager plugins for Xfce panel
+ This power manager for the Xfce desktop enables laptop users to set up
+ a power profile for two different modes "on battery power" and "on ac
+ power" while still allowing desktop users to at least change the DPMS
+ settings and CPU frequency using the settings dialogue..
+ .
+ This package contains the brightness plugin.
+
+Package: xfce4-weather-plugin
+Version: 0.11.0-1.2
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 5052
+Depends: libc6 (>= 2.29), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.42), libgtk-3-0 (>= 3.22), libpango-1.0-0 (>= 1.14.0), libsoup2.4-1 (>= 2.41.90), libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0), libxml2 (>= 2.7.4)
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-weather-plugin
+Priority: optional
+Section: xfce
+Filename: pool/main/x/xfce4-weather-plugin/xfce4-weather-plugin_0.11.0-1.2_amd64.deb
+Size: 2554912
+SHA256: 46a371a64f91f07b094daa00370236629bdc29051c63cb8de9d34358a52fa97b
+SHA1: 03f03a813aa48810aa6a1514694ced12d68349b1
+MD5sum: 30ef94d7dfd68be8897dea1e7088fcd7
+Description: weather information plugin for the Xfce4 panel
+ The weather plugin displays information about the current weather according
+ your timezone and settings. It allows one to search weather location code in
+ the same plugin and displays weather status in little icons.
+ .
+ Features include:
+  - Temperature, atmospheric pressure and state.
+  - Wind speed, gust, and direction.
+  - Humidity, Visibility, Dew-point, UV Index.
+

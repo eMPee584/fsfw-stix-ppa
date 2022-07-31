@@ -1,0 +1,6 @@
+Archive: fsfw-stix-11
+Component: contrib
+Origin: FSFW-Dresden:eMPee584
+Label: fsfw-stix-production
+Architecture: i386
+Description: usb-live-linux packages for Debian bullseye

@@ -1,0 +1,6 @@
+Archive: schulstick-11
+Component: contrib
+Origin: FSFW-Dresden:eMPee584
+Label: schulstick-production
+Architecture: amd64
+Description: Schulstick packages for Debian bullseye

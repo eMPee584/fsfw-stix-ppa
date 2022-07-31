@@ -1,0 +1,46 @@
+Package: schulstick-11-gym-dd-plauen-meta
+Version: 0.0.1
+Architecture: all
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Installed-Size: 9
+Multi-Arch: foreign
+Homepage: https://gitlab.com/freie-software-freies-wissen/usb-live-linux
+Priority: optional
+Section: metapackages
+Filename: pool/main/s/schulstick-11-gym-dd-plauen-meta/schulstick-11-gym-dd-plauen-meta_0.0.1_all.deb
+Size: 2228
+SHA256: 37cbd53ba1e2b62b9476e783d838a3dcf22ab2f651c7dd08e72647249282b798
+SHA1: 6d20e40c9938c9cc92eef15613fc1784db87bc7e
+MD5sum: e011c728dc96786790eba0ef0bd5bfb9
+Description: schulstick.org meta-package for Gymnasium Dresden Plauen
+
+Package: schulstick-epoptes-config-gymddplauen-computerraum6
+Version: 0.4.1-1
+Priority: standard
+Section: misc
+Filename: pool/main/s/schulstick-epoptes-config-gymddplauen-computerraum6/schulstick-epoptes-config-gymddplauen-computerraum6_0.4.1-1_amd64.deb
+Size: 2518
+SHA256: 4b8d4997e098239907e868445814f31aeb7f835260a4471146353bb5ea0dbf6d
+SHA1: e60b7316f5fb3e8b1a1552fde12b1eea0a54ef09
+MD5sum: da6ec4b2ac4a7f42b2c31504ca464e4a
+Description: Epoptes classroom management config for clients in Gymnasium Dresden Plauen's Computerraum 6
+Architecture: amd64
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Depends: libnss-resolve
+Conflicts: schulstick-epoptes-server-config-gymddplauen-computerraum6
+
+Package: schulstick-epoptes-server-config-gymddplauen-computerraum6
+Version: 0.4.4-1
+Priority: standard
+Section: misc
+Filename: pool/main/s/schulstick-epoptes-server-config-gymddplauen-computerraum6/schulstick-epoptes-server-config-gymddplauen-computerraum6_0.4.4-1_amd64.deb
+Size: 5842
+SHA256: 53c33110d6e1b6e8e1e47a79c9d7e178b18ed872f36fb7bd4755e59fffc7b180
+SHA1: 537f7b35629ef0ab599d8188487bfb588a4c83fe
+MD5sum: f36bef3eec88596702c190b412f13909
+Description: Epoptes classroom management config for admin in Gymnasium Dresden Plauen's Computerraum 6
+Architecture: amd64
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Depends: avahi-daemon, epoptes
+Conflicts: schulstick-epoptes-config-gymddplauen-computerraum6, epoptes-client
+

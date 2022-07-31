@@ -1,0 +1,6 @@
+Archive: schulstick-11
+Component: non-free
+Origin: FSFW-Dresden:eMPee584
+Label: schulstick-production
+Architecture: i386
+Description: Schulstick packages for Debian bullseye
