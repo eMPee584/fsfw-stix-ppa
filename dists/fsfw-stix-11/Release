@@ -2,18 +2,18 @@ Origin: FSFW-Dresden:eMPee584
 Label: fsfw-stix-production
 Suite: fsfw-stix-11
 Codename: fsfw-stix-11
-Date: Sun, 31 Jul 2022 13:36:37 UTC
+Date: Sat, 06 Aug 2022 16:08:17 UTC
 Architectures: amd64 i386
 Components: main contrib non-free
 Description: usb-live-linux packages for Debian bullseye
 MD5Sum:
- 7cb5130b225c78dd41cb66425cf1e53e 31858 main/binary-amd64/Packages
- 8315de45dfba1ff473c1305387ace319 9105 main/binary-amd64/Packages.gz
- 9c38685621e9382150941b636e38fd42 9109 main/binary-amd64/Packages.bz2
+ c9b48ab0f735204571e33c3c62c57053 31840 main/binary-amd64/Packages
+ 3f4efe234f55b3afec7f2a0cf64a70d1 9092 main/binary-amd64/Packages.gz
+ 1416412bbaa7b2e66e8dd1e17ef9c5b3 9085 main/binary-amd64/Packages.bz2
  cb2ec6a44967c1222d7fb041af16d9eb 173 main/binary-amd64/Release
- e8d3f07e45c75292ca1ed195f90acf4b 13985 main/binary-i386/Packages
- 41b06cae953f617c2f81b3c8b64c5627 4742 main/binary-i386/Packages.gz
- 94b8c87db024cd1db9ae3602a838b3c7 4928 main/binary-i386/Packages.bz2
+ c94e03952723c62e818d021fc006e816 13967 main/binary-i386/Packages
+ 03e66b74e7095eb8a4d9e76d2c2ec2a4 4734 main/binary-i386/Packages.gz
+ 19d14f5e0e1b1278a009144ff5e8e9b1 4934 main/binary-i386/Packages.bz2
  94a6b47ed257afb609949beb835ae93d 172 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
@@ -41,13 +41,13 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
  12c8c98501005619da73de2c34b8f450 178 non-free/source/Release
 SHA1:
- 65a3c92d485465b039799bb20c1eb05f4c3d3e07 31858 main/binary-amd64/Packages
- e792ab1712b0386f7340849f6345c301f8256d37 9105 main/binary-amd64/Packages.gz
- e3adb582d2df216e1c62df4c5f47aeaebe1647b8 9109 main/binary-amd64/Packages.bz2
+ d7315b0391ec93f5f3d98373bca9a7fa43d29206 31840 main/binary-amd64/Packages
+ dc813d2aaec27d6ae663c762ad8efb2c58bd82d3 9092 main/binary-amd64/Packages.gz
+ 339a05779264b4a08e1f334f8c9a16f8a3b31c04 9085 main/binary-amd64/Packages.bz2
  e0e84d5f917781f5c260e580f741d2b6408da749 173 main/binary-amd64/Release
- ec99d64a68e64671abf25d8c55d1ee4a9442335a 13985 main/binary-i386/Packages
- f3992efbff162c9b3ded62ce287519e5140be2b9 4742 main/binary-i386/Packages.gz
- f6472e64e3f070040ff04ab410872d7e49649fc4 4928 main/binary-i386/Packages.bz2
+ 78e5a599883719466191ee63413f84fca1b8c63d 13967 main/binary-i386/Packages
+ 3e8ea06c0e1324260145088a60433064168e5b94 4734 main/binary-i386/Packages.gz
+ d25a8c0bde63c09749ca1de5512e9b545229478a 4934 main/binary-i386/Packages.bz2
  258de748b7bcb19847c4869cd97e504fdcf4d9a4 172 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
@@ -75,13 +75,13 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
  e1b9a5bdd2bc73113b4fee88ec2b4764899cba73 178 non-free/source/Release
 SHA256:
- f9898f4973c8d42ed4d6d2153aa59ab3509e558d292779d4b0ae095b35274a67 31858 main/binary-amd64/Packages
- 0f5b21cf85e340a8a827b9c3426648d6c1fc8f551803167eeb8f5c0984485010 9105 main/binary-amd64/Packages.gz
- 8c570cd2771b25cb8592d35c162d3276b63f534b3559662507185310b96bedde 9109 main/binary-amd64/Packages.bz2
+ 091c0d367a296f1f23c4c0b82ebc499c5967bc425103db2a20152f677b643964 31840 main/binary-amd64/Packages
+ 153cb505d0b6c1a5acdabf33f38cc0ff8be3860b9ba934a2a3e77f7e6995da0c 9092 main/binary-amd64/Packages.gz
+ fbfab824b747a9cc83c9fe4ba36bf90968f75810bab22eb884e388b18087334d 9085 main/binary-amd64/Packages.bz2
  fcc186f3ddd91c940ac905ae233278cf9fc0a1966f606dc468a1603366b57dd6 173 main/binary-amd64/Release
- 43cc60e0372910222eb745c10c3a2946087765ef9767881f1cd581823052ca82 13985 main/binary-i386/Packages
- e8cfa9db99834f9fa8c029a5a9c4afb8bcc586328b0882c182238ce8d6ca7ad9 4742 main/binary-i386/Packages.gz
- 9d2f87a41a699d8a1b167e86f37c278d75fa9ae5287dffb5bdcedff53e08091f 4928 main/binary-i386/Packages.bz2
+ ea1d44a20a36cfc5f1c202585114cb8e9f77ab3808e4f8b5cc436d9f90eb76e2 13967 main/binary-i386/Packages
+ a5f2a39d0ddabcc922a0456ef1c86938d6f9be342cf465ebef77831930e0c618 4734 main/binary-i386/Packages.gz
+ 4e23ca0b4e85210a35f590b61971652b3f4695eb572ec13aabd4d23a0a8b7095 4934 main/binary-i386/Packages.bz2
  c03f32d2ffa7f2081bde272d3d79532aba2de572e5df350d6103ba3c349d86fb 172 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
