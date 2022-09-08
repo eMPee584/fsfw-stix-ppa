@@ -724,19 +724,19 @@ Description: documentation for the GTK graphical user interface library
 
 Package: rtl8821ce-dkms
 Source: rtl8821ce
-Version: 5.5.2.1-0ubuntu10
+Version: 5.5.2.1-0ubuntu11
 Architecture: all
-Maintainer: Canonical HWE Team <canonical-hwe@lists.canonical.com>
-Installed-Size: 24641
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 24643
 Depends: dkms (>= 2.1.0.0), bc
 Homepage: https://launchpad.net/ubuntu/+source/rtl8821ce
 Priority: optional
 Section: kernel
-Filename: pool/main/r/rtl8821ce/rtl8821ce-dkms_5.5.2.1-0ubuntu10_all.deb
-Size: 2196836
-SHA256: 012756042040261814e91fc8cb385b3f9401cc8a21eead931c9c861b03adfa7a
-SHA1: ae62de07a85e91dbcadc28ffca112e7dc6cad133
-MD5sum: d261a036c85e04aafdf128f26974399c
+Filename: pool/main/r/rtl8821ce/rtl8821ce-dkms_5.5.2.1-0ubuntu11_all.deb
+Size: 2197460
+SHA256: e5505efddae6794f887850c3e7d673e0f874c793cfcccaf72a34a51c64fc94c0
+SHA1: a91adb299b46c5336e635781f5994c63716a368c
+MD5sum: 0573effeca6b0e466bf8e6f511fd59e2
 Description: DKMS source for the Realtek 8821C PCIe Wi-Fi driver
  Realtek provides the solution for WLAN in hardware and software. The software
  package could be adopted for Realtek RTL8821CE WLAN series hardware on Linux
@@ -745,6 +745,7 @@ Description: DKMS source for the Realtek 8821C PCIe Wi-Fi driver
  This package provides the DKMS source code for the rtl8821ce kernel module.
  Kernel source or headers are required to compile these modules.
 Modaliases: rtl8821ce(pci:v000010ECd0000C821sv*sd*bc*sc*i*, pci:v000010ECd0000C82Asv*sd*bc*sc*i*, pci:v000010ECd0000C82Bsv*sd*bc*sc*i*)
+Original-Maintainer: Canonical HWE Team <canonical-hwe@lists.canonical.com>
 
 Package: xfce4-power-manager
 Version: 4.16.0-1+schulstick2
