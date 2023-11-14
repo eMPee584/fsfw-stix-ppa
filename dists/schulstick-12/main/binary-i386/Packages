@@ -1,0 +1,17 @@
+Package: schulstick-12-meta
+Version: 0.0.1
+Architecture: all
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Installed-Size: 9
+Multi-Arch: foreign
+Homepage: https://gitlab.com/freie-software-freies-wissen/usb-live-linux
+Priority: optional
+Section: metapackages
+Filename: pool/main/s/schulstick-12-meta/schulstick-12-meta_0.0.1_all.deb
+Size: 2176
+SHA512: c89263f37d794c13e0ec1946543ae542d49e13de3694b1a95aa12dc8fecc76d8ef8e190a24fa15d6ac95bcce1884dfa583bb467b26a44de353e0bfc80d32526d
+SHA256: 05fa6b4eea4b3746619f515cd138fb9a7c2b4a3b164d8b3be16dd1ddc1408164
+SHA1: a40ba9e3fe280b6e358c3939ff9e1552cb53407d
+MD5sum: 985c7d89376f8f428e3154f299d0053a
+Description: schulstick.org meta-package
+

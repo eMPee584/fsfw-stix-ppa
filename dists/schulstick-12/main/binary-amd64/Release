@@ -1,0 +1,4 @@
+Component: main
+Origin: FSFW-Dresden:eMPee584
+Label: FSFW Schulstick Packages
+Architecture: amd64

@@ -1,0 +1,86 @@
+Package: fsfw-stick-12-meta
+Version: 0.0.1
+Architecture: all
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Installed-Size: 9
+Multi-Arch: foreign
+Homepage: https://gitlab.com/freie-software-freies-wissen/usb-live-linux
+Priority: optional
+Section: metapackages
+Filename: pool/main/f/fsfw-stick-12-meta/fsfw-stick-12-meta_0.0.1_all.deb
+Size: 2176
+SHA512: 9bb222b9ca2a8f5a5b499701622cbe71f9345fd13b557316d70897149522fc419febfec9d71c3ddbf71e492ffbcf71356ad42d9692cce4186bf2308df50f23e8
+SHA256: 8e8a09f6ce20c89fb33aea2f3c94c04b691cd64a7440060a08a52f83abe134e2
+SHA1: 6b09414663d5d1252731b456a98e004a4409f2cd
+MD5sum: f3c5d732b8f2e405ac77d3af78e82aac
+Description: usb-live-linux meta-package
+
+Package: multiplex
+Version: 0.6.1.1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 8
+Depends: python3-multiplex (= 0.6.1.1), python3:any
+Homepage: https://github.com/dankilman/multiplex
+Priority: optional
+Section: python
+Filename: pool/main/m/multiplex/multiplex_0.6.1.1_all.deb
+Size: 1228
+SHA512: f4a98db50383ac9be23d3d46ac048b2750d72241aeedcfda29b2f206e94688ce0a84ae3452d14923fe6a1a8de6cfc5eadc521392d0bbd72daa61bd1f9752a453
+SHA256: 869a1c12e4fe655156bcb0ac77888e0bccf68e6a8cf3d016713ccb3caf9b4b98
+SHA1: 8690f4abd8c4188bce2c0141a35990fbc6663b9e
+MD5sum: 21eab712004dcb25f16ebe2e783dabfe
+Description: View output of multiple processes, in parallel - executable
+ multiplex is a library and utility to run commands and display their output,
+ in parallel, with an interactive terminal user interface.
+ .
+ This package contains the executable utility.
+
+Package: python3-multiplex
+Source: multiplex
+Version: 0.6.1.1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 131
+Depends: python3-aiofiles, python3-aiostream, python3-click, python3-easyansi, python3-pyte, python3:any
+Homepage: https://github.com/dankilman/multiplex
+Priority: optional
+Section: python
+Filename: pool/main/m/multiplex/python3-multiplex_0.6.1.1_all.deb
+Size: 26604
+SHA512: ea79a4388052da5d48eef427e9bf02c7a80dd73955769e6bdf60383e9849c9852992f28ebd46b3cbead84b5d968114fdd3a6fed23ada88134efa6d0bf9a981b1
+SHA256: 8246ff826512f4efab72bb5342d76baee1aab6fcd56a9a62a9b5292dd83ad546
+SHA1: 4a9b2e009e2be7fc9e5fd62279157823c4aa3e19
+MD5sum: ec7cfa706e5704ef038cab977568201e
+Description: View output of multiple processes, in parallel - library
+ multiplex is a library and command-line utility to run commands and display
+ their output, in parallel, with an interactive terminal user interface.
+ .
+ This package contains the Python library.
+
+Package: xfce4-weather-plugin
+Version: 0.11.0-1.3
+Architecture: i386
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 5072
+Depends: libc6 (>= 2.29), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.42), libgtk-3-0 (>= 3.22), libpango-1.0-0 (>= 1.14.0), libsoup2.4-1 (>= 2.41.90), libxfce4panel-2.0-4 (>= 4.13.0), libxfce4ui-2-0 (>= 4.11.0), libxfce4util7 (>= 4.9.0), libxfconf-0-3 (>= 4.6.0), libxml2 (>= 2.7.4)
+Multi-Arch: same
+Homepage: https://docs.xfce.org/panel-plugins/xfce4-weather-plugin
+Priority: optional
+Section: xfce
+Filename: pool/main/x/xfce4-weather-plugin/xfce4-weather-plugin_0.11.0-1.3_i386.deb
+Size: 2560108
+SHA512: 969c38916b09330cebf96f62fb281f2f6b2f6e36c1bd9c61e0723281c3953a913a41946d0549cfce223931a726500fe60c80ec34f8b7a133c1ecfa6f5fda2c0c
+SHA256: 32f78bb4543f5b5e978266c1f9547b4bf3b0ec70f30ec8c421ae923ed9ba094b
+SHA1: 5428f8951a82d54f7bea281951cdaa771f1edf5c
+MD5sum: b7ba0ed0d824df1411e3ccfd6724f2f2
+Description: weather information plugin for the Xfce4 panel
+ The weather plugin displays information about the current weather according
+ your timezone and settings. It allows one to search weather location code in
+ the same plugin and displays weather status in little icons.
+ .
+ Features include:
+  - Temperature, atmospheric pressure and state.
+  - Wind speed, gust, and direction.
+  - Humidity, Visibility, Dew-point, UV Index.
+

@@ -1,0 +1,49 @@
+Package: schulstick-12-gym-dd-plauen-meta
+Version: 0.0.1
+Architecture: all
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Installed-Size: 9
+Multi-Arch: foreign
+Homepage: https://gitlab.com/freie-software-freies-wissen/usb-live-linux
+Priority: optional
+Section: metapackages
+Filename: pool/main/s/schulstick-12-gym-dd-plauen-meta/schulstick-12-gym-dd-plauen-meta_0.0.1_all.deb
+Size: 2224
+SHA512: c3fe9e4794a5b66cd91f1d733d24f6159b21656ef35e90fa4e4ca7fe98e6911056f81ef8252133b07c49a15df5703b8ba211f08387a00e8b581e6393cbdf83f2
+SHA256: d360b1852bb6664cef31f7e1495dfd0c38f0b19ac4c4c47184a18ccc4e06b622
+SHA1: 47beba246a1112fb8a4836b695f69a0849c6bc27
+MD5sum: bd1a54e873f19a26afb1d2d4ce153d67
+Description: schulstick.org meta-package for Gymnasium Dresden Plauen
+
+Package: schulstick-epoptes-config-gymddplauen-computerraum6
+Version: 0.4.1-2
+Priority: optional
+Section: misc
+Filename: pool/main/s/schulstick-epoptes-config-gymddplauen-computerraum6/schulstick-epoptes-config-gymddplauen-computerraum6_0.4.1-2_amd64.deb
+Size: 2536
+SHA512: 38d1ee68670bfa6ce09bd4f0e1654663e63ce2241a45972128a32e900e2a09ce1d79618c200aecd349ee4f0a87feb1588ecd4f820af0dc62c13e38c5a678f5a7
+SHA256: c68052e2cc828d13842e516325807b2086482ecc6cd650fb61135995b98c9311
+SHA1: eb998347908e903b50a37df6e79cf373604669c1
+MD5sum: 1354c87eca6d32a4ffefd240f3c453fe
+Description: Epoptes classroom management config for clients in Gymnasium Dresden Plauen's Computerraum 6
+Architecture: amd64
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Depends: libnss-resolve
+Conflicts: schulstick-epoptes-server-config-gymddplauen-computerraum6
+
+Package: schulstick-epoptes-server-config-gymddplauen-computerraum6
+Version: 0.4.4-2
+Priority: optional
+Section: misc
+Filename: pool/main/s/schulstick-epoptes-server-config-gymddplauen-computerraum6/schulstick-epoptes-server-config-gymddplauen-computerraum6_0.4.4-2_amd64.deb
+Size: 5872
+SHA512: 1acbe1fb016ec1119b77c688ad405749b62f89a1431f47a33d874eb06f02f62a6d77e938078207dbc66b6e9352d6745eea2325761b193f3bd456ef183099a4d6
+SHA256: e180937933cad1d85e30a5139b0a80a037b5f79ab36bf7ca435e420eb71fa9b0
+SHA1: fbb8048c23fb03e261f0181e2fc14505ee68ed6f
+MD5sum: af610c6a0047e7c63101f83343c5ec16
+Description: Epoptes classroom management config for admin in Gymnasium Dresden Plauen's Computerraum 6
+Architecture: amd64
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Depends: avahi-daemon, epoptes
+Conflicts: schulstick-epoptes-config-gymddplauen-computerraum6, epoptes-client
+

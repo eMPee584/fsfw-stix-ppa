@@ -1,0 +1,17 @@
+Package: schulstick-12-49gs-meta
+Version: 0.0.1
+Architecture: all
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Installed-Size: 9
+Multi-Arch: foreign
+Homepage: https://gitlab.com/freie-software-freies-wissen/usb-live-linux
+Priority: optional
+Section: metapackages
+Filename: pool/main/s/schulstick-12-49gs-meta/schulstick-12-49gs-meta_0.0.1_all.deb
+Size: 2208
+SHA512: d51c58a53d0e8c95532a5e678a2f50f350e62a3380380aa5c29fa138b0f9bf4a8a4016dd80324db2218af1be599166329dbbf4f8aab6a4d573f4d2982a53de6c
+SHA256: acf65897bc15ab3a04223a92aa8ef8faf1806ab619b1e6868e84f6cc0d02b8ff
+SHA1: 2064f6021f679a48cc34d7d8293b3f804e8d1d39
+MD5sum: 902d2d68c45dcc7214d3444f74086c61
+Description: schulstick.org meta-package for 49. Grundschule Dresden
+
