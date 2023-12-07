@@ -1,17 +1,34 @@
 Package: schulstick-12-49gs-meta
-Version: 0.0.1
+Version: 0.0.2
 Architecture: all
 Maintainer: Marcel Partap <mpartap@gmx.net>
 Installed-Size: 9
+Depends: schulstick-epoptes-config-dresden | schulstick-epoptes-config-gymddplauen-computerraum6
 Multi-Arch: foreign
 Homepage: https://gitlab.com/freie-software-freies-wissen/usb-live-linux
 Priority: optional
 Section: metapackages
-Filename: pool/main/s/schulstick-12-49gs-meta/schulstick-12-49gs-meta_0.0.1_all.deb
-Size: 2208
-SHA512: d51c58a53d0e8c95532a5e678a2f50f350e62a3380380aa5c29fa138b0f9bf4a8a4016dd80324db2218af1be599166329dbbf4f8aab6a4d573f4d2982a53de6c
-SHA256: acf65897bc15ab3a04223a92aa8ef8faf1806ab619b1e6868e84f6cc0d02b8ff
-SHA1: 2064f6021f679a48cc34d7d8293b3f804e8d1d39
-MD5sum: 902d2d68c45dcc7214d3444f74086c61
+Filename: pool/main/s/schulstick-12-49gs-meta/schulstick-12-49gs-meta_0.0.2_all.deb
+Size: 2296
+SHA512: bca1eb689d0d4db8a35f709dc5792a8948f5d4139ae824e6d7008975202b63bc3da740a833765bd7f6c578bdf1927e3face238457118a6b29f66420124f2f311
+SHA256: ebf8b0988fbeb0a5936b29b8fe9552e3bf13c2fc8c4ba5fc2e0ce237c8c8c095
+SHA1: c621a541288980fdc96f6d641edc600dfd431549
+MD5sum: bd1b4f0cc7abe7c2b978e8698e6ec1d8
 Description: schulstick.org meta-package for 49. Grundschule Dresden
+
+Package: schulstick-epoptes-config-dresden
+Version: 0.4.2-1
+Priority: optional
+Section: misc
+Filename: pool/main/s/schulstick-epoptes-config-dresden/schulstick-epoptes-config-dresden_0.4.2-1_amd64.deb
+Size: 2530
+SHA512: 887df41299ee005bfdc1ce30a0479c458f8fba1dcd8b4e66823ef7228a6f017d6cff74c11a2f9baaaab62e4a145bb0538844c53cfdb4391f066572bd7fd28d73
+SHA256: fb6aa7a384525bae731163216580bac3add6e10710603fb8d6f88d7c73b21f26
+SHA1: 06bf31725820f55e5bcd5aec014682db49115075
+MD5sum: 1bb4c4ea3c4c2834071552431a62e713
+Description: Epoptes classroom management config for our schools in Dresden
+Architecture: amd64
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Depends: libnss-resolve
+Conflicts: schulstick-epoptes-server-config-gymddplauen-computerraum6, schulstick-epoptes-server-config-dresden
 
