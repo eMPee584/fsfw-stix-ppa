@@ -1,18 +1,18 @@
 Package: schulstick-12-49gs-meta
-Version: 0.0.2
+Version: 0.0.3
 Architecture: all
 Maintainer: Marcel Partap <mpartap@gmx.net>
 Installed-Size: 9
-Depends: schulstick-epoptes-config-dresden | schulstick-epoptes-config-gymddplauen-computerraum6
+Depends: schulstick-epoptes-client-config-dresden | schulstick-epoptes-config-gymddplauen-computerraum6
 Multi-Arch: foreign
 Homepage: https://gitlab.com/freie-software-freies-wissen/usb-live-linux
 Priority: optional
 Section: metapackages
-Filename: pool/main/s/schulstick-12-49gs-meta/schulstick-12-49gs-meta_0.0.2_all.deb
-Size: 2296
-SHA512: bca1eb689d0d4db8a35f709dc5792a8948f5d4139ae824e6d7008975202b63bc3da740a833765bd7f6c578bdf1927e3face238457118a6b29f66420124f2f311
-SHA256: ebf8b0988fbeb0a5936b29b8fe9552e3bf13c2fc8c4ba5fc2e0ce237c8c8c095
-SHA1: c621a541288980fdc96f6d641edc600dfd431549
-MD5sum: bd1b4f0cc7abe7c2b978e8698e6ec1d8
+Filename: pool/main/s/schulstick-12-49gs-meta/schulstick-12-49gs-meta_0.0.3_all.deb
+Size: 2308
+SHA512: 3bd172dc7bcaf22946a647d0064ee8eba3705decb0abaac9c755f1157820b9ab05d1b1696389000650a5e95df2429e97d192bd42acfbaa0c433d4ed8a1e09f89
+SHA256: 5deff9f35645bc054fcbea72e84391f24dcde828fbe567f34c4873a905007190
+SHA1: d3a679281b24e0da32529c382d56c9681ffe2875
+MD5sum: 998795a02afcdd005555c002ad87ae49
 Description: schulstick.org meta-package for 49. Grundschule Dresden
 

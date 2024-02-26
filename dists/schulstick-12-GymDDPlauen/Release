@@ -1,13 +1,13 @@
 Origin: FSFW-Dresden:eMPee584
 Label: FSFW Schulstick Packages for Gymnasium Dresden Plauen
 Codename: schulstick-12-GymDDPlauen
-Date: Tue, 14 Nov 2023 03:12:13 UTC
+Date: Mon, 26 Feb 2024 00:46:08 UTC
 Architectures: amd64 i386
 Components: main
 MD5Sum:
- 53c037c42d37b65a965533252f930568 2446 main/binary-amd64/Packages
- 1b56973945c3e197756c266cf9616702 1066 main/binary-amd64/Packages.gz
- b25e6b88ed626a93add6cab51e83bee9 1153 main/binary-amd64/Packages.bz2
+ fb32210d96c0b9d19e10c62335824009 4075 main/binary-amd64/Packages
+ c5621e706ee45477e7ed5c6f6240bf45 1516 main/binary-amd64/Packages.gz
+ 96c040ef73a623b86fdbef39f1f7de04 1609 main/binary-amd64/Packages.bz2
  cf249db81343ee7a398dafc43a88a8d8 127 main/binary-amd64/Release
  fe2b6727f06aa1649c30c86e39e9a5b8 753 main/binary-i386/Packages
  6166d53eb771591a43930269557a089b 504 main/binary-i386/Packages.gz
@@ -17,9 +17,9 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  ee82906b081a0229502c510013d88d34 128 main/source/Release
 SHA1:
- 656730c7b5cb3865ecc206311447f27d6002cef9 2446 main/binary-amd64/Packages
- 384ebf53e54ec9c24fecb28e4a28779634e0124c 1066 main/binary-amd64/Packages.gz
- 65d65223cf0677af445d5b42feb74ecccb19c604 1153 main/binary-amd64/Packages.bz2
+ 97bd13b344e74709850fd75e480d3334514439e1 4075 main/binary-amd64/Packages
+ 50a4df9701690dde95e0d08370d20d862031ab19 1516 main/binary-amd64/Packages.gz
+ 81e3d1dfeeab18cb913016bdbb0551fcfe7d1212 1609 main/binary-amd64/Packages.bz2
  702fbc2c23d4fecbce4a671ce9833f77bbb68f87 127 main/binary-amd64/Release
  2a9ea78531ba09360ace29be3cf34406f7702fd6 753 main/binary-i386/Packages
  091b9e1688bdf3eca5acb60f0af15019629cf2d6 504 main/binary-i386/Packages.gz
@@ -29,9 +29,9 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  a0ccf5f7a420953f36512ff6aa27afb481c4aed9 128 main/source/Release
 SHA256:
- d769eb7d604f5435e227b5b248ce2d6509fc492eaacd3c880350ed5f62e96466 2446 main/binary-amd64/Packages
- 5c0217d80599fc026636f5b323b152d3e286d57255d1e170ea9f0c4746d2a4ee 1066 main/binary-amd64/Packages.gz
- 08547f032fef88ab3a2ab1b3b22eb6fb8c1b4e25157ce5bd7bf1ed1842ddad6e 1153 main/binary-amd64/Packages.bz2
+ 6e00d91850dbc71b9a39e41cf5b0f5be17916ad53fd9da0de57f3b5f998ce634 4075 main/binary-amd64/Packages
+ 60e01bf0107f962854c227712fddf389b3398d0bd972f4146d7a8f5717deb104 1516 main/binary-amd64/Packages.gz
+ bd2684ed5ec8faece2b02a326afedd5637177a6bf918151ed8aef09c88959cff 1609 main/binary-amd64/Packages.bz2
  8c69acdd80b4d9da35b05657c007bbf91993bbe79a6ee8826a4ffb3e6cc98851 127 main/binary-amd64/Release
  bac8d840c0cc0c56893a6cc32b9aa636559c80c1612c544b8560faa27e183cbf 753 main/binary-i386/Packages
  f44cef9ea4ea55df20a598a22e3925835308969a2b0b1489e95d9c8c25011896 504 main/binary-i386/Packages.gz
@@ -41,9 +41,9 @@ SHA256:
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
  2d6d3a0fb0cdde1a3125832b0a4a5fe3d9dc1edf79236917158c4158a5b93ca5 128 main/source/Release
 SHA512:
- 2111c8d018ccdc23ed2ecc13952b063d3e3f15ab7d487de9742ebe6bc8f1981ffecbb788e82f8e41daa9ecb63db9ff3b055e366638bc2a0737b335b80c52b620 2446 main/binary-amd64/Packages
- a17944aeadaa111ca68da35ee9e6dfde4f9c29630bc74e0d3356aab6653b724f705def32cf98b70e877332651b0029f7239b892cf2cab9762e4a486b713681bb 1066 main/binary-amd64/Packages.gz
- e3c90131d0d45eb1002fc53326b36b65b8e1b4402a89dad9474223299f38ccce3836e8858af2a22295955dd4c0c7b34182ae32ec377a5d19abc1889abb3ed115 1153 main/binary-amd64/Packages.bz2
+ 8d4e09c8696c79e4f641b05bfd1ea847ace4a130119238f9082143df9387b456600822727867e5b2adcc8479708c1800fee3b6914146ab384218de8adfbb5446 4075 main/binary-amd64/Packages
+ 9289a6e911f216a73927ee0c73fc6d295bab825e4684e6cc4223e1b7021219d5fff8ae835dac71ee9913deadca71ac65d9f455d2e49ba44c4cd234d90c6e87d1 1516 main/binary-amd64/Packages.gz
+ ed76fe0b96e325cd8db3dc14766dbd98c0e1f2c515e802bc6036ea7f799b947d42016a082a9645f83052b6afc5b616bd3d54b5f07f701d5189a8247a0bbad8a3 1609 main/binary-amd64/Packages.bz2
  84e2edebbc370089b3735f9aaa9a87088e5f09b56ab8783a377417aca3127ea8e7efdf90f9ea63e2f1b775477d01a29213619052e45fbd7778f2e70453734ca5 127 main/binary-amd64/Release
  3a1d3930a1fa9a839899db73a126ea192e0eb5e658b7e284b9679e8f4169fda8e253c1be899a4107d9f32c9a59a63e61cc081199db86ce8fa9631c5f1c9db55e 753 main/binary-i386/Packages
  896178124ad7b58863b580a8123067e295552d93c9af0fa34b7fd9c8064df87ab5603bf1ed542604f8b7f643812a18a6ffb255339aad5476a0e23de4ff25cfe6 504 main/binary-i386/Packages.gz
