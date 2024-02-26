@@ -16,15 +16,15 @@ MD5sum: bd1a54e873f19a26afb1d2d4ce153d67
 Description: schulstick.org meta-package for Gymnasium Dresden Plauen
 
 Package: schulstick-epoptes-client-config-dresden
-Version: 0.4.3-1
+Version: 0.4.3-2
 Priority: optional
 Section: misc
-Filename: pool/main/s/schulstick-epoptes-client-config-dresden/schulstick-epoptes-client-config-dresden_0.4.3-1_amd64.deb
-Size: 2534
-SHA512: b270904754c49129ee6d4774e876b8961c158f9d82a631874b93c58d7593c7b3f2967bd3c072c319a6797788153ad41e4a98f30bb6996d1d17a446285c39929e
-SHA256: af6b6e487852f03fadba2c0fe4531257984688a3c54793fef1fe09de936520e7
-SHA1: 160c0256b29c83549c2e61949c771f2ddcac781f
-MD5sum: 3dedf2176afcc368e1791b5beb7ee205
+Filename: pool/main/s/schulstick-epoptes-client-config-dresden/schulstick-epoptes-client-config-dresden_0.4.3-2_amd64.deb
+Size: 2530
+SHA512: 2934c11eb684affb6065839bbb65fe113923d115ce1735128c7c6d888917f9f946d535c209218baa53bb41ca9aeb6a6bacd5623ebdfced93912742782a35114e
+SHA256: bb75cbad8f6e4f96992ad16b46d5e498eae1a3ce06fa826f9c2405344202d1c9
+SHA1: 7c2fd8aa9b0c121fcc7c8fcfc1a4e2db1eabd8d7
+MD5sum: 8d8c2e9cc43a572f3c002f565ace6a12
 Description: Epoptes classroom management config for our schools in Dresden
 Architecture: amd64
 Maintainer: Marcel Partap <mpartap@gmx.net>
@@ -48,15 +48,15 @@ Depends: libnss-resolve
 Conflicts: schulstick-epoptes-server-config-gymddplauen-computerraum6
 
 Package: schulstick-epoptes-server-config-dresden
-Version: 0.4.5-3
+Version: 0.4.5-4
 Priority: optional
 Section: misc
-Filename: pool/main/s/schulstick-epoptes-server-config-dresden/schulstick-epoptes-server-config-dresden_0.4.5-3_amd64.deb
-Size: 5868
-SHA512: aeee256dc7765bce6a192cad874eff2b0b45d0411ed7eac1d456ee53f1fd740203aab74ef9c53adf9ed67be4c4aa1b9056a84e6513093d3b4eff356fb46f12de
-SHA256: e7a11428ba60dcfb99d7bbb4b63ce36f1f98e0d2a940c0156ebf62cfbfb9f9b7
-SHA1: 129161621aa8a99229c7adf3a020d25290a26a72
-MD5sum: fae270eb64db8d9c9b52b22a11165251
+Filename: pool/main/s/schulstick-epoptes-server-config-dresden/schulstick-epoptes-server-config-dresden_0.4.5-4_amd64.deb
+Size: 5866
+SHA512: 48cbc85d1a92fd15ab68aeb9218e12cf25326337d4745c632fdcb41c98978e89cc986a82f930d6f129c1d79666f9cc01b11915d7697776d4bdc3d5251a2f893f
+SHA256: ea4e7575b7f3dfc5fb489507f7e70b6288835a8bcada2cebb1fba6a699d89b7b
+SHA1: 90b8fe611bb74e7e95806f761ec98c376249018e
+MD5sum: 440e8575f2acfeeb018c38d5ed0256f4
 Description: Epoptes classroom administration for our schools in Dresden
 Architecture: amd64
 Maintainer: Marcel Partap <mpartap@gmx.net>
