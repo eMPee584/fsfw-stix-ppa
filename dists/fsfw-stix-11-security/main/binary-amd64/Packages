@@ -1,0 +1,19 @@
+Package: firefox-config-fix-missing-toolbar-icons
+Version: 0.2
+Architecture: amd64
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Installed-Size: 8
+Homepage: https://github.com/fsfw-dresden/usb-live-linux
+Priority: optional
+Section: web
+Filename: pool/main/f/firefox-config-fix-missing-toolbar-icons/firefox-config-fix-missing-toolbar-icons_0.2_amd64.deb
+Size: 1480
+SHA512: 7ad4d8d24a0c3ee959aaa186de621a6da64e2233dc5d593834e796e945cd32ac52cdbd1a414cf322b5edbb8428efe13f7605d424cd177485929f575385dff221
+SHA256: 2fc07f6276df50b44b891bd00d223769e13bfa7f0e991b0086c86465bd4c966a
+SHA1: af50671d48715db21936221992722aa6e97a6b62
+MD5sum: 3058a58ce3c022bfe592516e20bd557b
+Description: Fix firefox missing toolbar icons
+ We shipped a custom CSS hack that got broken by firefox shifting to the new CSS
+ image-set mechanism. To mitigate this, this package contains a preinst script
+ that removes the section.
+
