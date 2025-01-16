@@ -1,0 +1,18 @@
+Package: fsfw-stick-11-meta
+Version: 0.0.2
+Architecture: all
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Installed-Size: 9
+Depends: firefox-config-fix-missing-toolbar-icons
+Multi-Arch: foreign
+Homepage: https://gitlab.com/freie-software-freies-wissen/usb-live-linux
+Priority: optional
+Section: metapackages
+Filename: pool/main/f/fsfw-stick-11-meta/fsfw-stick-11-meta_0.0.2_all.deb
+Size: 2244
+SHA512: 532676d67b461525b97e48c6e23656dce53a5da8415653c6a300b2b81009a88d08bf16d49fe9a2626d7e21cae0c502533b7cd039b8b1ba655894c24dfcfbf3e0
+SHA256: 0a519e8259c504542c14a84a0bc64f094440f26e57dc46226dc638e95ec22ec0
+SHA1: c87ef066f253e65afbca3e88de21027714ab18ed
+MD5sum: 7082fe33e6d85d1bd7ef17ef8751cc4f
+Description: usb-live-linux meta-package
+

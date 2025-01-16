@@ -1,5 +1,5 @@
 Package: fsfw-stick-12-meta
-Version: 0.0.1
+Version: 0.0.3
 Architecture: all
 Maintainer: Marcel Partap <mpartap@gmx.net>
 Installed-Size: 9
@@ -7,12 +7,12 @@ Multi-Arch: foreign
 Homepage: https://gitlab.com/freie-software-freies-wissen/usb-live-linux
 Priority: optional
 Section: metapackages
-Filename: pool/main/f/fsfw-stick-12-meta/fsfw-stick-12-meta_0.0.1_all.deb
-Size: 2176
-SHA512: 9bb222b9ca2a8f5a5b499701622cbe71f9345fd13b557316d70897149522fc419febfec9d71c3ddbf71e492ffbcf71356ad42d9692cce4186bf2308df50f23e8
-SHA256: 8e8a09f6ce20c89fb33aea2f3c94c04b691cd64a7440060a08a52f83abe134e2
-SHA1: 6b09414663d5d1252731b456a98e004a4409f2cd
-MD5sum: f3c5d732b8f2e405ac77d3af78e82aac
+Filename: pool/main/f/fsfw-stick-12-meta/fsfw-stick-12-meta_0.0.3_all.deb
+Size: 2180
+SHA512: a48857bee46e29169691719ada0ccfd7108306f91f6c030664c14aaf8be66bfe92645c4591480c53e83c4e19047e122311dd3941e5808b8caf2996901df98b46
+SHA256: ad83d6ef256db715dd47bc36c7d51c5cf0842ad1b919d89ba84c7f00863c8c9e
+SHA1: 56731718f2abf9b2c9ba09966f1ea5afd4720945
+MD5sum: c80bd7fd144e6525152fbdccd24b91b8
 Description: usb-live-linux meta-package
 
 Package: multiplex
