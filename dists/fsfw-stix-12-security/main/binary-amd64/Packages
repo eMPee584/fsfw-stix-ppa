@@ -18,20 +18,20 @@ Description: Fix firefox missing toolbar icons
  that removes the section.
 
 Package: fsfw-stick-12-meta
-Version: 0.0.2
+Version: 0.0.4
 Architecture: all
 Maintainer: Marcel Partap <mpartap@gmx.net>
 Installed-Size: 9
-Depends: firefox-config-fix-missing-toolbar-icons
+Depends: libreoffice-gtk3
 Multi-Arch: foreign
 Homepage: https://gitlab.com/freie-software-freies-wissen/usb-live-linux
 Priority: optional
 Section: metapackages
-Filename: pool/main/f/fsfw-stick-12-meta/fsfw-stick-12-meta_0.0.2_all.deb
-Size: 2248
-SHA512: 6f9f6c45fdb8d3ec0e508dee4890cc46821a894bbedcbd033d29b4c372f66ed4773e563df0c620f35c2c41aca0e418786dfe341b73cf3c67441c36ca1c530290
-SHA256: 8fe4a636e7f06d61ab41f57efd021cb2601a2196e7a1880d01ceda921997ad2e
-SHA1: 0f6b56444787dbe93bf6ecfc186af8648c8f619e
-MD5sum: 0c89503274670a2fae8b0cb0b260f892
+Filename: pool/main/f/fsfw-stick-12-meta/fsfw-stick-12-meta_0.0.4_all.deb
+Size: 2216
+SHA512: 8c313f4a0c63758715bee9a7f4d368be206feb117df85591ec8ff1a0a6e4d0f2946effd9ed9ab308f5fc325e2fe7c28750e2aab27887ce40f50b0b6f2e49f866
+SHA256: bf7d9ffe4336ca8a8eb11f7ef47265f7c17e9aca264fe148aff325172ffe996b
+SHA1: 6fb2f058f5b70b71d5e3361f736617b8d3e963dd
+MD5sum: 06b26376b97ad10bb237d44bf630cd4d
 Description: usb-live-linux meta-package
 
