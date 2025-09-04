@@ -35,3 +35,30 @@ SHA1: 6fb2f058f5b70b71d5e3361f736617b8d3e963dd
 MD5sum: 06b26376b97ad10bb237d44bf630cd4d
 Description: usb-live-linux meta-package
 
+Package: libreoffice-gtk3
+Source: libreoffice
+Version: 4:25.2.3-2~bpo12+1
+Architecture: amd64
+Bugs: mailto:debian-backports@lists.debian.org
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 2383
+Depends: libreoffice-core (= 4:25.2.3-2~bpo12+1), libatk1.0-0 (>= 2.33.1), libc6 (>= 2.34), libcairo2 (>= 1.12.0), libepoxy0 (>= 1.0), libgcc-s1 (>= 3.3.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 11), libuno-cppu3 (>= 4.4.0~alpha), libuno-cppuhelpergcc3-3 (>= 4.0.0~alpha), libuno-sal3 (>= 1:7.3.0~beta1), libx11-6, uno-libs-private
+Recommends: gstreamer1.0-gtk3
+Suggests: libreofficekit-data
+Enhances: libreoffice
+Homepage: http://www.libreoffice.org
+Priority: optional
+Section: gnome
+Filename: pool/main/libr/libreoffice/libreoffice-gtk3_25.2.3-2~bpo12+1_amd64.deb
+Size: 507716
+SHA512: b88d23e92dc26c2a99c5c5ec41416e8acb0dd156daa2ea314c256b1302a0bfc095a11112c565d73aa165d8a5b7cb12927ccf6ac8cb59ef0a656ca15c9f40aa56
+SHA256: 4231cfca92e4b02fcfa366dbc8709d6b520cc17ecf26c009f95a21d35a8515ac
+SHA1: 5e9fefa6774f6f60dc6ad41d7db27067ab34e070
+MD5sum: dff302132b5051036b454213b7ac2ec4
+Description: office productivity suite -- GTK+ 3 integration
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the GTK+ plugin for drawing LibreOffices widgets
+ with GTK+ 3 and GTK+/GNOMEish print dialog when running under GNOME.
+

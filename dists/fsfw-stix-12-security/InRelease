@@ -5,13 +5,13 @@ Origin: FSFW-Dresden:eMPee584
 Label: FSFW Stix Security Updates
 Suite: fsfw-stix-12
 Codename: fsfw-stix-12-security
-Date: Thu, 04 Sep 2025 08:08:24 UTC
+Date: Thu, 04 Sep 2025 12:51:01 UTC
 Architectures: amd64 i386
 Components: main contrib non-free
 MD5Sum:
- c82a78979fea22d62caff340e3ae646e 1604 main/binary-amd64/Packages
- 05a20d787eea950d24c4aa9005d9a0a7 877 main/binary-amd64/Packages.gz
- 31684c34f201d60d7b2519d42da34ae5 954 main/binary-amd64/Packages.bz2
+ bcb1f01dba3cc3f31839bb4367458605 3143 main/binary-amd64/Packages
+ 3c41f16d3bbf1d2db6d8dda94e50e07f 1593 main/binary-amd64/Packages.gz
+ 4811af72b78edd78be4434e876bdee6f 1730 main/binary-amd64/Packages.bz2
  dd13a85ff9df67d66e3173258115e6f9 122 main/binary-amd64/Release
  1109a2ca768583b55ce3775abf8d2f4f 708 main/binary-i386/Packages
  9394215dc84f0bec3343a0a8432af349 488 main/binary-i386/Packages.gz
@@ -43,9 +43,9 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
  9714cf519c783a287b12c09088e6afbb 127 non-free/source/Release
 SHA1:
- c34c8b5002a20af59052f2b6183ede1511a349f1 1604 main/binary-amd64/Packages
- 9498d4ae4699cf7674f7eee79b0482b8c28dfd64 877 main/binary-amd64/Packages.gz
- a463f091a580a253c13db46686d9294d5aaf4db6 954 main/binary-amd64/Packages.bz2
+ 16ddaa59b40828d5785adcfbc843d0cd0fc3a97f 3143 main/binary-amd64/Packages
+ f6de2b42ae8c2dec4ce2e49605c3c592b6a4afc3 1593 main/binary-amd64/Packages.gz
+ c8225a82c7ba218b5b05dce08ed2a421ee22304a 1730 main/binary-amd64/Packages.bz2
  b3ea6ae7746fe02d4d0f5172fa234de98e57edbe 122 main/binary-amd64/Release
  b7e923d920ac4cdde2e0a2055a541ee5d6b19a84 708 main/binary-i386/Packages
  b666607fb524b0c3c54515f9a90670da4f99f629 488 main/binary-i386/Packages.gz
@@ -77,9 +77,9 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
  d641579d6cb3a076bd6f10c7b68f244f141d39ce 127 non-free/source/Release
 SHA256:
- 22248f0d52e04c0816d5012c79ac9a42aec0916990ae0f83c0426a5fc6b3e79e 1604 main/binary-amd64/Packages
- 5a1e09caa69459b33cc43e0834d1f6adb4fc5d57ad339132516687e2c578f9f7 877 main/binary-amd64/Packages.gz
- 7b4da312d895634f57af74389dade380a418b9bf6980ddc16b6641c3c89c50e6 954 main/binary-amd64/Packages.bz2
+ ac9dc9af827016ad704a8aa7f48f4d5984c611bebaf8716c8a9e0540e1e8a018 3143 main/binary-amd64/Packages
+ a9417e1e516d6e130d7a44129c00a0f832cc03eb7c820b08c9d90a4241345303 1593 main/binary-amd64/Packages.gz
+ aeb1855df442b132464dda675011851972084671e8a6dea23ba87f62501fd2df 1730 main/binary-amd64/Packages.bz2
  85b41e54396e921f15b2fa84a656f78af7efdd24b45869aa894bff010e395f85 122 main/binary-amd64/Release
  27213eed5ba18fa370f88ceee599df88790f1d341cebdd333e7870d0e07502ef 708 main/binary-i386/Packages
  b0161f75ab78d5e01192fc136d09dfe655527a6274807c27103e3086ecc22178 488 main/binary-i386/Packages.gz
@@ -111,9 +111,9 @@ SHA256:
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/source/Sources.gz
  13db8ad830c57b7beb069047ec28d335a94a47bb3b2935ee534b32806c24cb34 127 non-free/source/Release
 SHA512:
- eecd9f085413230e42e71a54781cee977618d6de78af01f132c25cb4e88cc8b1108c95e906712198ccde1c6a99635def9e3e537a3848a45dc948a7a76d055c84 1604 main/binary-amd64/Packages
- a15b62548cca546cadb0c0ea4b3f5a67c98c445828fa269cd9a9bae85313c8aa5db09475f9f89088b97034d310f26be0fb7bd66711e2540953709b1a034e283f 877 main/binary-amd64/Packages.gz
- 1b7d0616d87d13b76385ddc18c38e079173a11a3f001ef80cf347da1023c8d4037b6df4ac7200d58f78ece332aa96cda1d02572cf10d4789c3c605f49a6b3e25 954 main/binary-amd64/Packages.bz2
+ dad1b70b20ca529834d8ed88b2e44a5626f2b1b60c4d79004b5b765bc3b7778ce6ffeedf472702c7438a6a91f155ee294830c31d0513dcffd9a0ce22d4ddfdf3 3143 main/binary-amd64/Packages
+ 19ad89f14f42e6bb3eb7dd119bed033271b3a6821dac81604ef210d29985e8cfd78862b1d884032bc3215c6bbd927bc14d9506356ca521dd73567225a2d1fa37 1593 main/binary-amd64/Packages.gz
+ d87ce4016e425de94d407208102bbed541df3fbb8a8b6eaf3c339f8ddd0ce34365858fd8fa73d4d23c1a965c2d89e8eb412a75b090089928b51b948b25ecc73b 1730 main/binary-amd64/Packages.bz2
  a60cce3cc1537c02c1c16640b295fe349eccf3b8d5bd1a5a923bb7d35b10804c3067b33d127bbd5c5229f2e3e25d517771a0d98e233dc292a84724158e1d2780 122 main/binary-amd64/Release
  aafc038c902888c85aac5c831035321ffe3c8d7f51cc28b634c089114d6332bc4ca31a1eef727e02cd1a01a6befbb05d06a471d4f9201331869020d8bbe63e7c 708 main/binary-i386/Packages
  c337686fe1e155068d18ae82570c44b20c596b43778fb4911939db7b70ccdf5139f607e5622321ccfe273fa2d5343fd59b739de007adea63e59de0e0738fbfe3 488 main/binary-i386/Packages.gz
@@ -146,15 +146,15 @@ SHA512:
  0cc5236be6cf709383109b3d95601c27aa65deae9db3f4725babbd9e0f83e7b931442a38bc0ad03e9619c977442317ac979d81cf3b1ed7eb86293008735e283f 127 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEErDaNT2ACJm3yzi2G++JC1QXSAK8FAmi5SPwACgkQ++JC1QXS
-AK9ergv/W0L5NkBnVThXoxgfuON68sxQOq59IMDcMpu3kL/Q0rzfHm/uB2GVv8w/
-YYrbQ8JWqnwHw35ooCuphAqsAxqKA8xbcOibrtU2yIG/WE3jDn8tvwIhcdomHCoi
-DuOf76rPt/DBdiIYKNb+o/MQsKQMziPKDRIcCofiAHz1Dkhh6YmEfVnDUX4sfSdq
-LN+5nF4Pe7MjVYMoOVNxpNTJE4c5DXb5QcINZNSGX+fmmmTCes3YWoIFb6B7nWVG
-CNbLU4gdhsHyQMImWr2EbpdWkEMIKrfwCVskxNKvfI8tFMDaxQ27+gMSVE99uNQQ
-OaWx6re/ASkQ5MqJ4C3JNtArKxwpUKPptbqLfEyDgnSNZzD7qKCFU8+MGRRvXidn
-IZAAEAFgS+zd40khHCyOcCUUpxeqKlGg2JglGjEdfQlfb1RL7zblL3OZO0nE1w6H
-Zv1hCZz2+rzh7CvG5J4A749HDS0JpLBoKFTX0ZtlJ/frbV54SybPUtINLNGZ3U5R
-5zpKm1kI
-=pWew
+iQGzBAEBCgAdFiEErDaNT2ACJm3yzi2G++JC1QXSAK8FAmi5izkACgkQ++JC1QXS
+AK8mcgv/UANnVbc8IPk3m6+p6wwOsc7GJgfkoGhdp++0C8yqX2uYW6kHmRS0Hw3O
+9hK9/NG5ktzzKnW5t9MNdPndP5nqf3T9MC9juTjSfpLoqilxJoLdYZpbQIO5mzPr
+Psyp/KemrSbDn1t7F+TGhlfrnd2jmuxAcFtrttB10MPX/lj+WC1x9rI6W5pBnmak
+Q8amhbA4n0+kEEig1/QrsFOcx++TVRkh5XBboXb8+RbHbgDUUpDNW/pnFrkHifPJ
+QNLS7/nH+DW0wyDc37kdQLE+Qn3rYHcVJm3RNJg7qk/ezBWbYd5302fsxLvKAK9U
+dGpuhWBMHEPGhV+D3phH/2GCEbeA4CxXN7yuq/4b3pZCO8zmvlUfybE6nWt0NJRE
+VXnN7AjFsbJGKkVRBx5rx3Di4EFX2XdsZ4PxyPDRSQRkg769Oth7BwO8ncKCPYyy
+v7PBEtrfR4XcGd2cEfwYc9xCClAVgXE7HXR2j5vDlsxHBwlkD7F8EY7IhiuisBn5
+MMrRw2T1
+=kVzo
 -----END PGP SIGNATURE-----
