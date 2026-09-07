@@ -1,0 +1,60 @@
+Package: fsfw-stick-13-meta
+Version: 0.1
+Architecture: all
+Maintainer: Marcel Partap <mpartap@gmx.net>
+Installed-Size: 9
+Multi-Arch: foreign
+Homepage: https://gitlab.com/freie-software-freies-wissen/usb-live-linux
+Priority: optional
+Section: metapackages
+Filename: pool/main/f/fsfw-stick-13-meta/fsfw-stick-13-meta_0.1_all.deb
+Size: 2172
+SHA512: f5d5cb3a2d55e834396b5b0f81eeb4de63c70854b71cdc6c665555c905f52fe4cc8f458bdc0c501ef5463b544a4b474d6c6b8c5d7763e2e1445b9e2678c3301a
+SHA256: 4b4fed039bfc990282f43562890597f98fa298e60e3751b1710382252855c370
+SHA1: 25c687ffc1e1e747d86be113baa65e995c6877c4
+MD5sum: cf8d40ef8db2b72d88742b5bf366ffb4
+Description: usb-live-linux meta-package
+
+Package: multiplex
+Version: 0.6.1.1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 8
+Depends: python3-multiplex (= 0.6.1.1), python3:any
+Homepage: https://github.com/dankilman/multiplex
+Priority: optional
+Section: python
+Filename: pool/main/m/multiplex/multiplex_0.6.1.1_all.deb
+Size: 1228
+SHA512: f4a98db50383ac9be23d3d46ac048b2750d72241aeedcfda29b2f206e94688ce0a84ae3452d14923fe6a1a8de6cfc5eadc521392d0bbd72daa61bd1f9752a453
+SHA256: 869a1c12e4fe655156bcb0ac77888e0bccf68e6a8cf3d016713ccb3caf9b4b98
+SHA1: 8690f4abd8c4188bce2c0141a35990fbc6663b9e
+MD5sum: 21eab712004dcb25f16ebe2e783dabfe
+Description: View output of multiple processes, in parallel - executable
+ multiplex is a library and utility to run commands and display their output,
+ in parallel, with an interactive terminal user interface.
+ .
+ This package contains the executable utility.
+
+Package: python3-multiplex
+Source: multiplex
+Version: 0.6.1.1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 131
+Depends: python3-aiofiles, python3-aiostream, python3-click, python3-easyansi, python3-pyte, python3:any
+Homepage: https://github.com/dankilman/multiplex
+Priority: optional
+Section: python
+Filename: pool/main/m/multiplex/python3-multiplex_0.6.1.1_all.deb
+Size: 26604
+SHA512: ea79a4388052da5d48eef427e9bf02c7a80dd73955769e6bdf60383e9849c9852992f28ebd46b3cbead84b5d968114fdd3a6fed23ada88134efa6d0bf9a981b1
+SHA256: 8246ff826512f4efab72bb5342d76baee1aab6fcd56a9a62a9b5292dd83ad546
+SHA1: 4a9b2e009e2be7fc9e5fd62279157823c4aa3e19
+MD5sum: ec7cfa706e5704ef038cab977568201e
+Description: View output of multiple processes, in parallel - library
+ multiplex is a library and command-line utility to run commands and display
+ their output, in parallel, with an interactive terminal user interface.
+ .
+ This package contains the Python library.
+

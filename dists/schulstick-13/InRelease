@@ -1,0 +1,60 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: FSFW-Dresden:eMPee584
+Label: FSFW Schulstick Packages
+Suite: fsfw-stix-13
+Codename: schulstick-13
+Date: Mon, 07 Sep 2026 18:50:12 UTC
+Architectures: amd64 i386
+Components: main
+MD5Sum:
+ 3d30e06b059e8c81b962d10c98ce6d5d 678 main/binary-amd64/Packages
+ b930466526ee2e9a3891c32572fffeb7 10240 main/binary-amd64/Packages.gz
+ 4e84ad0e8e7d548787ede0190f820eff 10240 main/binary-amd64/Packages.bz2
+ 28d7dd44d3ed81ecdc42642f09c00b35 120 main/binary-amd64/Release
+ 3d30e06b059e8c81b962d10c98ce6d5d 678 main/binary-i386/Packages
+ b930466526ee2e9a3891c32572fffeb7 10240 main/binary-i386/Packages.gz
+ 4e84ad0e8e7d548787ede0190f820eff 10240 main/binary-i386/Packages.bz2
+ 02f8d4590fd708f3f03b9612c1853b64 119 main/binary-i386/Release
+SHA1:
+ c4a68b221cb3234859349af308f9cd81d9c11830 678 main/binary-amd64/Packages
+ c219c071c901c040033d0e356131fd4418e7a7e1 10240 main/binary-amd64/Packages.gz
+ 2b5a233dddc368975726fb8deeda21d2e0bfee2d 10240 main/binary-amd64/Packages.bz2
+ d131557d74e3dadb1503e05ed88d79a494506738 120 main/binary-amd64/Release
+ c4a68b221cb3234859349af308f9cd81d9c11830 678 main/binary-i386/Packages
+ c219c071c901c040033d0e356131fd4418e7a7e1 10240 main/binary-i386/Packages.gz
+ 2b5a233dddc368975726fb8deeda21d2e0bfee2d 10240 main/binary-i386/Packages.bz2
+ 560294688e7a334a188678f6f9641dc9a9199e7e 119 main/binary-i386/Release
+SHA256:
+ 35ee892a68ec7e4fe5024d3af9a1bc688150f28b73f64207798c61a77e880c26 678 main/binary-amd64/Packages
+ a90614ba40eb40e6d9243e95bbbebec2315551b691f97e5a8e9b12f1559ff04e 10240 main/binary-amd64/Packages.gz
+ 45971cfa6afd7c2ce0edf2bd3ad895c3f817b23c3e638ad19c2fcf34e9b32768 10240 main/binary-amd64/Packages.bz2
+ de5e5c591da2f08eb7154f21a839a198a3b342854793e1ea0493a4e35e2f0381 120 main/binary-amd64/Release
+ 35ee892a68ec7e4fe5024d3af9a1bc688150f28b73f64207798c61a77e880c26 678 main/binary-i386/Packages
+ a90614ba40eb40e6d9243e95bbbebec2315551b691f97e5a8e9b12f1559ff04e 10240 main/binary-i386/Packages.gz
+ 45971cfa6afd7c2ce0edf2bd3ad895c3f817b23c3e638ad19c2fcf34e9b32768 10240 main/binary-i386/Packages.bz2
+ bb01ab0b717b03f1495fb425fe4b0072de4adf7ff52849ddc1780e29987840f5 119 main/binary-i386/Release
+SHA512:
+ 26a05e6d68c6e73c810a0cffc2fd78b9975fa50b275c232b9a14abd3eb001deba1bc5669174b566270a39f384f069f2edd05de7d67c04762317b4e0bd42780f2 678 main/binary-amd64/Packages
+ b9f41b9b67472c12212d5965179bb4ca6f97a60facc0d4bf8d15b12c21d48653ec9b31dcbe97d247c48960bbae86fc671bb5206f3b98f52f8362cf56bfe97123 10240 main/binary-amd64/Packages.gz
+ b3e6a60a0bd8cee8dc1e226b0a55481a9eb09f266b506c9eb4d59ac2675187c662df27e0a03b10044b702f0400e8bb5081859226421cd40bac872533ab848e85 10240 main/binary-amd64/Packages.bz2
+ d8265e49bbcacb6a5c30c5b42b5762455d76325af29a59d0e93e0ae21b0c9924c4bc34566d820e390382ebce8a860f7acd438204078b5bf3e066e23b66bcac3d 120 main/binary-amd64/Release
+ 26a05e6d68c6e73c810a0cffc2fd78b9975fa50b275c232b9a14abd3eb001deba1bc5669174b566270a39f384f069f2edd05de7d67c04762317b4e0bd42780f2 678 main/binary-i386/Packages
+ b9f41b9b67472c12212d5965179bb4ca6f97a60facc0d4bf8d15b12c21d48653ec9b31dcbe97d247c48960bbae86fc671bb5206f3b98f52f8362cf56bfe97123 10240 main/binary-i386/Packages.gz
+ b3e6a60a0bd8cee8dc1e226b0a55481a9eb09f266b506c9eb4d59ac2675187c662df27e0a03b10044b702f0400e8bb5081859226421cd40bac872533ab848e85 10240 main/binary-i386/Packages.bz2
+ e50459c5f021a9561cf5a3d8d734e2221621d17fedf0da139209a501abb6d111c0affa51f82847938e7b9a1cb37fdd0f2cc6669a632f3317a826282ff781b42c 119 main/binary-i386/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEErDaNT2ACJm3yzi2G++JC1QXSAK8FAmqfB2QACgkQ++JC1QXS
+AK8xyAv6A8jy0F/xB/0gU+hEigHbsh4UwP51oN044s+2tJo92HPd4KYi6S6vb/Yk
+/MtE0d/K8fyZbcz2sTA41URrHFDhupaTxxXzGJFWnIxYbUzFkNHGfFTrPzwlkxr/
+3mo2rklo1DK3jD3eOgnoQNX/L2mxhLNbKntnYU1WvRoUqBR/o+U4MZyiGinwt1pL
+9pFleRKFcEk0bbq0ZA6CqOoCeFMHGwkVjNyEO8yV6RaLC81sJUaTPnK+89GbV2HN
+VDkv8wlFCFe2g6QO4bG4ZVth6fLicKl8LDt2rtXJ6EJOG1lDgrnzkQr8/Xr3LYgo
+N7ykFUhVn00maBgakNt26yU+VZCy9/lSZuVRpGm4uZOE4O5VC7Ct0s/cYG6kMf/H
+qyln0/4ceyQ37Lz13+qxpM00p87+3trDf1MTwVnQYAKVEBkNzRLmVnKZpHckrfWX
+oYk/ViGwEe6ZRBczwV+fqz65bTI3tchWnMcnlfPB8SbDRbr1ODyvW9uioZ55PCP6
+kveZtbP5
+=78qw
+-----END PGP SIGNATURE-----
