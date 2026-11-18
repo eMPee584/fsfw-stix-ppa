@@ -1,3 +1,55 @@
+Package: epoptes
+Version: 23.08-2
+Architecture: all
+Maintainer: Epoptes Developers <epoptes@lists.launchpad.net>
+Installed-Size: 1847
+Depends: python3:any, adduser, faketime, gir1.2-gtk-3.0, gir1.2-notify-0.7, iperf, iproute2 | iproute, librsvg2-common, notification-daemon | xfce4-notifyd, openssl, python3-dbus, python3-gi, python3-gi-cairo, python3-netifaces, python3-openssl, python3-twisted, xvnc4viewer | tigervnc-viewer | ssvnc | xtightvncviewer | vnc-viewer | realvnc-vnc-viewer, socat, x11vnc, xterm
+Recommends: epoptes-client
+Homepage: https://epoptes.org
+Priority: optional
+Section: admin
+Filename: pool/main/e/epoptes/epoptes_23.08-2_all.deb
+Size: 185072
+SHA512: 9800104efce4801cdcb83ec53655cb08c9ddbbc92d299f9546a4cbe6bd70422ea574a5b979b735da50d49b75a713c80fa3223f4cc6eb6cf978f608286c4f6581
+SHA256: a8a66a15230b775f3dccebb47f8f3651f404de837a6cd0a3d32e044c2a35a83a
+SHA1: 700b26c6379fbf27ce840d0ee4e8ab2823968724
+MD5sum: 67bdcb3424bd3d7fa89ab28075d30053
+Description: Computer lab management tool
+ Epoptes is an open source computer lab management and monitoring tool. It
+ allows for screen broadcasting and monitoring, remote command execution,
+ message sending, imposing restrictions like screen locking or sound muting
+ the clients and much more!
+ .
+ Contains the server daemon and a GUI for controlling client PCs.
+ .
+ It supports LTSP installations, but it also works without LTSP.
+
+Package: epoptes-client
+Source: epoptes
+Version: 23.08-2
+Architecture: all
+Maintainer: Epoptes Developers <epoptes@lists.launchpad.net>
+Installed-Size: 96
+Depends: python3:any, iproute2 | iproute, procps, screen, socat, python3-setuptools | python3-distutils
+Recommends: gir1.2-gtk-3.0, iperf, librsvg2-common, openssl, python3-gi, python3-gi-cairo, xvnc4viewer | tigervnc-viewer | ssvnc | xtightvncviewer | vnc-viewer | realvnc-vnc-viewer, x11-utils, x11-xserver-utils, x11vnc, xterm
+Suggests: ethtool
+Homepage: https://epoptes.org
+Priority: optional
+Section: admin
+Filename: pool/main/e/epoptes/epoptes-client_23.08-2_all.deb
+Size: 20844
+SHA512: e2f52390c98710fee5c41a91f7ad962bc384be1a0adcbfb29042ef0cd38c380c2913bc17d5042c72752e2b6cbed1d5d35d02ff89b3f156a734d7929b727a0a55
+SHA256: 5677c2bbc10eea66dcabf7e041999df55f1f11f09f372e7f0f6572400dbdf0db
+SHA1: 9ca7dd15562c7a12f2450d87c4cd446fa473172b
+MD5sum: 419acafb3e681ea683b3115ee2e0e964
+Description: Computer lab management tool (client)
+ Epoptes is an open source computer lab management and monitoring tool. It
+ allows for screen broadcasting and monitoring, remote command execution,
+ message sending, imposing restrictions like screen locking or sound muting
+ the clients and much more!
+ .
+ Contains the client daemon and some utilities for getting screenshots etc.
+
 Package: schulstick-13-meta
 Version: 0.1
 Architecture: all
