@@ -68,34 +68,34 @@ MD5sum: b3065d614aeedd48d813974e0b2b3b8f
 Description: schulstick.org meta-package
 
 Package: schulstick-epoptes-client-config-dresden
-Version: 0.4.3-2
+Version: 0.4.3-3
 Priority: optional
 Section: misc
-Filename: pool/main/s/schulstick-epoptes-client-config-dresden/schulstick-epoptes-client-config-dresden_0.4.3-2_amd64.deb
-Size: 2530
-SHA512: 2934c11eb684affb6065839bbb65fe113923d115ce1735128c7c6d888917f9f946d535c209218baa53bb41ca9aeb6a6bacd5623ebdfced93912742782a35114e
-SHA256: bb75cbad8f6e4f96992ad16b46d5e498eae1a3ce06fa826f9c2405344202d1c9
-SHA1: 7c2fd8aa9b0c121fcc7c8fcfc1a4e2db1eabd8d7
-MD5sum: 8d8c2e9cc43a572f3c002f565ace6a12
+Filename: pool/main/s/schulstick-epoptes-client-config-dresden/schulstick-epoptes-client-config-dresden_0.4.3-3_amd64.deb
+Size: 2558
+SHA512: 23121e6fc0f5c417651ec7c3fb5636dd5b46145527e5e55e2212ad2fa6d7daa91a7e9b72407efb765b0cf7f74b64c1ade1af403556123785be6a1971d57e8f26
+SHA256: c76e03b1a7db270ea52700ad000ec805f13cc3dc416353d2315faa3b2481f720
+SHA1: e472d30764b8cd1faaa2ba5764518e802237da1b
+MD5sum: 1f8278cc6b672363a1f1ae421567af17
 Description: Epoptes classroom management config for our schools in Dresden
 Architecture: amd64
 Maintainer: Marcel Partap <mpartap@gmx.net>
-Depends: libnss-resolve
+Depends: libnss-resolve, epoptes-client, tigervnc-viewer, x11vnc, iperf
 Conflicts: schulstick-epoptes-server-config-gymddplauen-computerraum6, schulstick-epoptes-server-config-dresden
 
 Package: schulstick-epoptes-server-config-dresden
-Version: 0.4.6-3
+Version: 0.4.6-4
 Priority: optional
 Section: misc
-Filename: pool/main/s/schulstick-epoptes-server-config-dresden/schulstick-epoptes-server-config-dresden_0.4.6-3_amd64.deb
-Size: 5926
-SHA512: 0c9bed731317822434fe374c2a062deccbbfcfb9cd2cd8a537af2ca06ff7546c9d6d60fc877e92bc84156693e89dff6912b58c1741f5ed34b2f565872dca893c
-SHA256: 13c02415650877e7e110a0286fec7da49e07e967bbab2ff884006c45ae19adf7
-SHA1: 5c6cc741baa979fc07996cd62ffa97548ad178dc
-MD5sum: 39ceabc8c279c4400da43e395308b0dc
+Filename: pool/main/s/schulstick-epoptes-server-config-dresden/schulstick-epoptes-server-config-dresden_0.4.6-4_amd64.deb
+Size: 5942
+SHA512: 8909abf1e311724a728da3afc2adf6ff3ae9169b5c550c9e51a9b511b473a1c239d95f61ed7f6b102e86c160f38c03833df8c5718f4719973a06ec8c285c3a96
+SHA256: 2c3726cd091b961ad393a763a2d77d0b9ee9f3da04d7f73b5d9ad4cf525cf974
+SHA1: d507892ca98cca3af49fd26745f16353a3d7198e
+MD5sum: 214991d98f68bd500296852500f40459
 Description: Epoptes classroom administration for our schools in Dresden
 Architecture: amd64
 Maintainer: Marcel Partap <mpartap@gmx.net>
-Depends: avahi-daemon, epoptes
+Depends: avahi-daemon, epoptes, python3-standard-pipes
 Conflicts: schulstick-epoptes-config-gymddplauen-computerraum6, schulstick-epoptes-client-config-dresden, epoptes-client
 
